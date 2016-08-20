@@ -1,0 +1,21 @@
+exclude:
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - ".gitignore"
+  - ".editorconfig"
+  - "vendor"
+
+defaults:
+  - values:
+      layout: "default_ja"
+
+safe: true
+lsi: false
+
+# Custom variables
+url: "http://2017.scalamatsuri.org"
+ja:
+  twitter: scala_jp
+en:
+  twitter: scalamatsuri

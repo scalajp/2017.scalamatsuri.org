@@ -1,0 +1,22 @@
+# - href: "/#intro"
+#   title: 開催趣旨
+- href: "/index_en.html#info"
+  title: Event Info
+# - href: "/#gues"
+#   title: 招待講演者
+#- href: "/index_en.html#schedule"
+#  title: Schedule
+#- href: "/index_en.html#tickets"
+#  title: Tickets
+#- href: "/index_en.html#sp"
+#  title: Sponsors
+#- href: "/en/staff"
+#  title: Staff
+- href: "/en/code-of-conduct/"
+  title: Code of Conduct
+# - href: "/en/candidates/"
+#   title: Proposal List
+# - href: "/en/sponsors/"
+#   title: Sponsorship
+#- href: "/en/travel/"
+#  title: Travel

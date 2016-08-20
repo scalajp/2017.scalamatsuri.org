@@ -1,0 +1,510 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ScalaMatsuri 2017 | The largest international Scala conference in Asia</title>
+		<meta name="description" content="The largest international Scala conference in Asia">
+		<meta name="keywords" content="Scala, conference">
+
+        <link rel="shortcut icon" href="/img/favicons/favicon.ico" type="image/vnd.microsoft.icon">
+        <link rel="icon" href="/img/favicons/favicon.ico" type="image/vnd.microsoft.icon">
+        <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="/img/favicons/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/img/favicons/favicon-48x48.png" sizes="48x48">
+        <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="manifest" href="/img/favicons/manifest.json">
+        <meta name="msapplication-TileColor" content="#2d88ef">
+        <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
+
+
+		<meta property="og:title" content="ScalaMatsuri 2017 | The largest international Scala conference in Asia" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://scalamatsuri.org/index_en.html" />
+	<meta property="og:image" content="http://scalamatsuri.org/img/common/img_repre2_en.png" />
+	<meta property="og:site_name" content="ScalaMatsuri 2017｜The largest international Scala conference in Asia" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:description" content="The largest international Scala conference in Asia" />
+
+		<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="">
+	<meta name="twitter:creator" content="">
+	<meta name="twitter:url" content="http://scalamatsuri.org/">
+	<meta name="twitter:title" content="ScalaMatsuri 2017｜The largest international Scala conference in Asia">
+	<meta name="twitter:description" content="The largest international Scala conference in Asia">
+	<meta name="twitter:image" content="http://scalamatsuri.org/img/common/img_repre2_en.png">
+
+		<link href="css/common.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script src="js/respond.src.js"></script>
+	<script src="js/shuffle.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+	<script type="text/javascript">
+	if ((navigator.userAgent.indexOf('iPhone') > 0) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+					document.write('<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">');
+			}else{
+					document.write('<meta name="viewport" content="width=device-width" />');
+			}
+	</script>
+
+
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv-printshiv.js"></script>
+	<![endif]-->
+	<script type="text/javascript" src="js/scalamatsuri2017.js?v=v{{ site.time | date_to_xmlschema }}"></script>
+	<script>
+		var lang = 'en';
+	</script>
+</head>
+<body id="top">
+
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=563078517069914";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+	<div id="wrapper" class="clearfix">
+
+		<header class="mainHeader">
+			<nav class="gnav pcVer">
+				<ul class="clearfix">
+					<li><a href="#top">Top</a></li>
+					{% for item in site.data.nav_en %}
+						<li><a href="{{ item.href }}">{{ item.title }}</a></li>
+					{% endfor %}
+					<li><a href="/">日本語</a></li>
+				</ul>
+			</nav>
+			<nav class="gnav smVer">
+				<p class="gnavSmClick"><img src="img/common/icon_menu.png"></p>
+				<ul class="clearfix smVerGnav">
+					<li><a href="#top">Top</a></li>
+					{% for item in site.data.nav_en %}
+						<li><a href="{{ item.href }}">{{ item.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</nav>
+		</header>
+
+		<section class="mainVis">
+
+			<p class="smVer linkLang"><a href="/">&raquo;&ensp;日本語</a></p>
+
+			<ul class="snsBtnArea clearfix">
+						<li class="btnpocket">
+								<a data-pocket-label="pocket" data-pocket-count="none" class="pocket-btn" data-lang="en"></a>
+<script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+							</li>
+							<li class="gplusBtn">
+								<!-- +1 ボタン を表示したい位置に次のタグを貼り付けてください。 -->
+								<div class="g-plusone" data-size="medium" data-annotation="none"></div>
+								<!-- 最後の +1 ボタン タグの後に次のタグを貼り付けてください。 -->
+								<script type="text/javascript">
+									window.___gcfg = {lang: 'en-US'};
+									(function() {
+										var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+										po.src = 'https://apis.google.com/js/platform.js';
+										var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+									})();
+								</script>
+							</li>
+							<li>
+								<a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.en.twitter }}" data-related="{{ site.en.twitter }}" data-hashtags="ScalaMatsuri" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+							</li>
+							<li><div class="fb-like" data-href="http://scalamatsuri.org/" data-layout="button" data-action="like" data-show-faces="true" data-share="false"></div></li>
+						</ul>
+
+
+			<div class="mainVisInner">
+
+				<h1><img src="img/common/img_main_txt.png" alt="ScalaMatsuri 2014" /></h1>
+				<p class="timeData">
+					30th - 31st January, in Tokyo</p>
+				<p class="txtData">
+					The largest international Scala conference in Asia</p>
+				<div class="logoArea">
+					<h2 class="clearfix">
+						<span class="ttlSpAreaTop">Shogun sponsor</span>
+						<span class="linelSpAreaTop"><img src="img/common/ttl_main_line.png" alt="" /></span>
+						<span class="linerSpAreaTop"><img src="img/common/ttl_main_line.png" alt="" /></span>
+					</h2>
+					<ul class="clearfix shuffle">
+						{% for logo in site.data.logos.shogun %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="sectionStyle7 smVer topBannerArea">
+			<div class="sectionStyle7Inner">
+				<article class="spBox">
+					<h3 class="ttlspBox1">Shogun sponsor</h3>
+					<ul class="clearfix shuffle">
+						{% for logo in site.data.logos.shogun %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
+					</ul>
+				</article>
+			</div>
+		</section>
+
+<!--
+		<section class="sectionStyle1" id="intro">
+			<div class="sectionStyle1Inner">
+				<header class="sectionHeadArea">
+					<h2 class="clearfix">
+						<span class="ttlSubLCenter">開催趣旨</span>
+						<span class="ttlSubLLeft"><img src="img/common/ttl_dots_left.png"></span>
+						<span class="ttlSubLRight"><img src="img/common/ttl_dots_right.png"></span>
+					</h2>
+					<p class="subTtlSm">Goals</p>
+				</header>
+				<div class="txtBlock">
+					<p>Scala は 2003 年に Martin Odersky 教授（当時）らによって開発されたプログラミング言語です。Twitter や LinkedIn、Foursquare などの著名サービスが Scala を採用しており、海外での採用事例は着々と増えてきています。Scala コミュニティもそれに伴い成長し、世界中の開発者が Scala や周辺ツールの開発に貢献しています。</p>
+					<p>日本国内でも Twitter が Scala を採用したことをきっかけに注目を集めはじめ、国内の Scala 関連書籍は10冊以上出版されています。 昨年は、日本国内から Scala への貢献が少ないことや、Scala の実用事例が十分にまとまっていないことを考え、「海外コミュニティとの交流促進」「実用言語としての Scala」をテーマに、ScalaMatsuri 2013 を開催しました。</p>
+					<p>幸いにして、200 名分のチケットが1週間も経たずに売り切れ、カンファレンスも大盛況の内に幕を閉じました。また、このカンファレンスのおかげかどうか、日本国内からの Scala への貢献もだいぶ増えているように思えます。</p>
+					<p>今年は、Scala を学び始めた原点に立ち返って「Enjoy.scala」をテーマにしたいと思います。名称も ScalaMatsuri に変更してイベントを開催します。実用にとどまらず、実験的な試みや、ただ楽しむだけのための発表も含めて様々な発表が行われることを願っています。</p>
+				</div>
+			</div>
+		</section>
+-->
+
+		<section class="sectionStyle2" id="info">
+			<div class="sectionStyle2Inner">
+				<header class="sectionHeadArea">
+					<h2 class="clearfix">
+						<span class="ttlSubLCenter">Event Info</span>
+						<span class="ttlSubLLeft"><img src="img/common/ttl_dots_left.png"></span>
+						<span class="ttlSubLRight"><img src="img/common/ttl_dots_right.png"></span>
+					</h2>
+				</header>
+				<div class="contArea">
+					<!--
+					<p>Scala に関する海外からのゲストスピーカーも招いた大規模な有料イベントです。 パラレルに 2 セッションで進行する予定です。一般募集のセッションや LT 大会も行う予定です。 懇親会についても行う予定ですが、現在調整中です。</p>
+					-->
+					<p>
+						We announce the news at <a href="https://twitter.com/scala_jp">twitter</a> and <a href="https://www.facebook.com/ScalaMatsuri">facebook</a>.Please follow/like.
+					</p>
+					<table>
+						<tr>
+							<th>Dates</th>
+							<td>25th(Sat.) - 26st(Sun.) February in 2017</td>
+						</tr>
+						<tr>
+							<th>Venue</th>
+							<td>
+								<a href="http://www.jasso.go.jp/tiec/index_e.html" target="_blank">
+									Tokyo International Exchange Center
+								</a>
+							</td>
+						</tr>
+						<!--
+						<tr>
+							<th>参加者数</th>
+							<td>300 名</td>
+						</tr>
+						<tr>
+							<th>参加者費(2日間共通チケット)</th>
+							<td>一般6000円 学生3000円</td>
+						</tr>
+						-->
+					</table>
+				</div>
+			</div>
+		</section>
+
+<!--
+		<section class="sectionStyle3" id="gues">
+			<header class="sectionHeadArea">
+				<h2 class="clearfix">
+					<span class="ttlSubLCenter">招待講演者</span>
+					<span class="ttlSubLLeft"><img src="img/common/ttl_dots_left.png"></span>
+					<span class="ttlSubLRight"><img src="img/common/ttl_dots_right.png"></span>
+				</h2>
+				<p class="subTtlSm">Invited Speakers</p>
+			</header>
+			<div class="isList clearfix">
+				<article>
+					<figure><img src="img/common/img_person1.png" alt="" /></figure>
+					<h3>Martin Odersky </h3>
+					<p>Scala 設計者, Typesafe 創業者</p>
+				</article>
+				<article>
+					<figure><img src="img/common/img_person2.png" alt="" /></figure>
+					<h3>Martin Odersky </h3>
+					<p>Scala 設計者, Typesafe 創業者</p>
+				</article>
+				<article>
+					<figure><img src="img/common/img_person3.png" alt="" /></figure>
+					<h3>Martin Odersky </h3>
+					<p>Scala 設計者, Typesafe 創業者</p>
+				</article>
+				<article>
+					<figure><img src="img/common/img_person4.png" alt="" /></figure>
+					<h3>Martin Odersky </h3>
+					<p>Scala 設計者, Typesafe 創業者</p>
+				</article>
+			</div>
+		</section>
+-->
+<!--
+		<section class="sectionStyle4" id="schedule">
+			<header class="sectionHeadArea">
+				<h2 class="clearfix">
+					<span class="ttlSubLCenter">Schedule</span>
+					<span class="ttlSubLLeft"><img src="img/common/ttl_dotsw_left.png"></span>
+					<span class="ttlSubLRight"><img src="img/common/ttl_dotsw_right.png"></span>
+				</h2>
+			</header>
+			<p class="contTxtArea">
+				By courtesy of our sponsor Dwango, the sessions in International Conference Hall on January 30th will be broadcasted via Niconico Live. Broadcasting on other rooms are to be determined.
+			</p>
+			<div class="progrumTableArea">
+				<div class="progrumTableOutSide">
+					<div class="prog1table">
+						<h3 style="padding: 1em;">Saturday, January 30th</h3>
+						<p style="padding-top: 0em;">
+						Day 1 is in conference format (3 parallel sessions). Doors open at 9:00, scheduled to end at 20:00. Lunch and light refreshment will be served at the party.</p>
+						<nav class="navLinks day1roomswitch" style="display: none;">
+							<ul class="clearfix">
+								<li class="btn1space"><span>International Conference Hall</span></li>
+								<li class="btn2space"><span>Media Hall</span></li>
+								<li class="btn3space"><span>Conference Room 1</span></li>
+							</ul>
+						</nav>
+
+						<table class="progrumTable space1area">
+							<tr>
+								<th style="width:150px;">Time</th>
+								<th style="width:350px;" class="roomA">International Conference Hall (400 seats; live interpreters)</td>
+								<th style="width:350px;" class="roomB">Media Hall (100 seats; live interpreters)</td>
+								<th style="width:350px;" class="roomC">Conference Room 1</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="prog2table">
+						<h3 style="padding: 1em; margin-top: 2em">Sunday, January 31st</h3>
+						<p style="padding-top: 0em;">
+						Day 2 is in unconference format. Doors open at 9:00, and scheduled to end at 18:00. Breakfast and lunch will be served.</p>
+
+						<nav class="navLinks day2roomswitch" style="display: none;">
+							<ul class="clearfix">
+								<li class="btn1space"><span>International Conference Hall</span></li>
+								<li class="btn2space"><span>Media Hall</span></li>
+								<li class="btn3space"><span>Conference Room 1</span></li>
+								<li class="btn4space"><span>Conference Room 2</span></li>
+								<li class="btn5space"><span>Conference Room 4</span></li>
+								<li class="btn6space"><span>Conference Room 5</span></li>
+							</ul>
+						</nav>
+
+						<table class="progrumTable space1area">
+							 <tr>
+									<th style="width:150px;">Time</th>
+									<th style="width:200px;" class="roomA">International Conference Hall<br>(400 seats; live interpreters)</td>
+									<th style="width:200px;" class="roomB">Media Hall<br>(100 seats; live interpreters)</td>
+									<th style="width:200px;" class="roomC">Conference Room 1</td>
+									<th style="width:200px;" class="roomD">Conference Room 2</td>
+									<th style="width:200px;" class="roomE">Conference Room 4</td>
+									<th style="width:200px;" class="roomF">Conference Room 5</td>
+							 </tr>
+						</table>
+
+					</div>
+					<p class="pdogTop"><a href="#schedule">> Back to Schedule top</a></p>
+				</div>
+			</div>
+		</section>
+-->
+<!--
+		 <section class="sectionStyle5">
+			<header class="sectionHeadArea">
+				<h2 class="clearfix">
+					<span class="ttlSubLCenter">Call for Proposal</span>
+					<span class="ttlSubLLeft"><img src="img/common/ttl_dots_left.png"></span>
+					<span class="ttlSubLRight"><img src="img/common/ttl_dots_right.png"></span>
+				</h2>
+			</header>
+			<div class="sectionStyle1Inner">
+				<div class="txtBlock">
+					<p>&nbsp;</p>
+					<p>Come share your stories at Scala Matsuri 2017!</p>
+					<p>
+We are looking for topics that you think Scala community would be interested. We have two session length: 40 minutes and 15 minutes. Prepare an abstract of your talk (600 characters or less), and submit your proposal. The sessions will be decided by votes by your fellow Matsuri goers. Travel support is also available for highly voted speakers (up to $2,000).
+</p>
+					<p>Please submit your proposal via <a href="/en/cfp/">Application Form</a>.This CFP will close on October 15th 00:00 JST.</p>
+					<p><a href="/en/candidates/">See proposal list so far.</a></p>
+				</div>
+			</div>
+		</section>
+-->
+
+
+		<section class="sectionStyle5">
+			<header class="sectionHeadArea">
+				<h2 class="clearfix">
+					<span class="ttlSubLCenter">Share ScalaMatsuri</span>
+					<span class="ttlSubLLeft"><img src="img/common/ttl_dots_left.png"></span>
+					<span class="ttlSubLRight"><img src="img/common/ttl_dots_right.png"></span>
+				</h2>
+			</header>
+			<br/>
+			<div>
+				<ul class="snsBtnArea snsBtnAreaMiddle clearfix">
+							<li><div class="fb-like" data-href="http://scalamatsuri.org/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div></li>
+							<li>
+								<!-- +1 ボタン を表示したい位置に次のタグを貼り付けてください。 -->
+								<div class="g-plusone" data-size="tall"></div>
+								<!-- 最後の +1 ボタン タグの後に次のタグを貼り付けてください。 -->
+								<script type="text/javascript">
+									window.___gcfg = {lang: 'en-US'};
+									(function() {
+										var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+										po.src = 'https://apis.google.com/js/platform.js';
+										var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+									})();
+								</script>
+							</li>
+							<li>
+								<a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.en.twitter }}" data-related="{{ site.en.twitter }}" data-hashtags="ScalaMatsuri" data-lang="en" data-count="vertical">Tweet</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+							</li>
+							<li>
+								<a data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a>
+								<script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+							</li>
+						</ul>
+			</div>
+			<div class="widgets">
+					<div class="widget">
+						{% include twitter_widget.html %}
+					</div>
+					<div class="widget">
+						{% include freewind.html rss="http://blog-en.scalamatsuri.org/feed"  %}
+					</div>
+			</div>
+
+		</section>
+
+
+<!--
+		<section class="sectionStyle6" id="tickets">
+			<header class="sectionHeadArea">
+				<h2 class="clearfix">
+					<span class="ttlSubLCenter">Tickets</span>
+					<span class="ttlSubLLeft"><img src="img/common/ttl_dotsw_left.png"></span>
+					<span class="ttlSubLRight"><img src="img/common/ttl_dotsw_right.png"></span>
+				</h2>
+				<p class="subTtlSm"></p>
+			</header>
+			<div class="inqBox">
+				<a href="https://scalaconfjp.doorkeeper.jp/events/31702">ScalaMatsuri 2017</a>
+			</div>
+		</section>
+
+<section class="sectionStyleCoC">
+	<div class="sectionStyle1Inner">
+		<div class="txtBlock">
+			<p>
+				Scala Matsuri is dedicated to providing an open conference for all technologists from various regions and communities. We want to make it a fun experience for everyone, regardless of gender, race, and many different backgrounds. All participants, including speakers and sponsors, are asked to be respectful to each other and follow the <a href="/en/code-of-conduct/">Code of conduct</a>.
+			</p>
+			<p>
+				Conference participants violating these rules may be asked to stop the session or leave the conference at the sole discretion of the conference organizers. If you have any questions about the Code of conduct, please ask for <a href="https://docs.google.com/forms/d/1kVRSxCTTwTPh_o2MGi4p-Zy1BoUARAWdwc2nXVkoi-s/viewform">inquiry form</a>.
+			</p>
+		</div>
+	</div>
+</section>
+-->
+<!--
+		<section class="sectionStyle7" id="sp">
+			<header class="sectionHeadArea">
+				<h2 class="clearfix">
+					<span class="ttlSubLCenter">Sponsors</span>
+					<span class="ttlSubLLeft"><img src="img/common/ttl_dots_left.png"></span>
+					<span class="ttlSubLRight"><img src="img/common/ttl_dots_right.png"></span>
+				</h2>
+				<p class="subTtlSm">&nbsp;</p>
+			</header>
+			<div class="sectionStyle7Inner">
+				<article class="spBox">
+					<h3 class="ttlspBox1">Shogun sponsor</h3>
+					<ul class="clearfix shuffle">
+						{% for logo in site.data.logos.shogun %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
+					</ul>
+				</article>
+				<article class="spBox">
+					<h3 class="ttlspBox1 spLv2">Daimyo sponsor</h3>
+					<ul class="clearfix shuffle">
+						{% for logo in site.data.logos.daimyo %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
+					</ul>
+				</article>
+				{% if site.data.logos.hatamoto.size > 0 %}
+				<article class="spBox">
+					<h3 class="ttlspBox1 spLv3">Hatamoto sponsor</h3>
+					<ul class="clearfix shuffle">
+						{% for logo in site.data.logos.hatamoto %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
+					</ul>
+				</article>
+				{% endif %}
+				<article class="spBox">
+					<h3 class="ttlspBox1 spLv4">Samurai sponsor</h3>
+					<ul class="clearfix shuffle">
+						{% for logo in site.data.logos.samurai %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
+					</ul>
+				</article>
+				<article class="spBox">
+					<h3 class="ttlspBox1 spLv5">Ninja sponsor</h3>
+					<ul class="clearfix shuffle">
+						{% for logo in site.data.logos.ninja %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
+					</ul>
+				</article>
+				<article class="spBox">
+					<h3 class="ttlspBox1 spLv6">Kawaraban sponsor</h3>
+					<ul class="clearfix shuffle">
+						{% for logo in site.data.logos.kawaraban %}
+						<li><a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a></li>
+						{% endfor %}
+					</ul>
+				</article>			</div>
+		</section>
+-->
+	{% include footer.html %}
+
+	</div>
+	{% include ga.html %}
+	<div id="dialog_message"></div>
+</body>
+</html>
