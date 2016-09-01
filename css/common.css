@@ -152,7 +152,7 @@ input, select {
 }
 
 .mainVis{
-	background: url(../img/common/main_img.png);
+	background: url(../img/common/2017_main_img_1280.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center top;
@@ -254,7 +254,7 @@ input, select {
 }
 
 .sectionStyle2{
-	background:url(../img/common/bg_sec_ver1.png);
+	background:url(../img/common/2017_sub_img_1280.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	margin-top:80px;
