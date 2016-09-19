@@ -489,7 +489,12 @@ input, select {
 }
 
 .sectionStyle3 .sectionHeadArea{
-	width:500px;
+	width:700px;
+}
+
+.cfp-link {
+  font-size: x-large;
+  text-align: center;
 }
 
 .sectionStyle4 .sectionHeadArea{
