@@ -36,4 +36,4 @@ Scala Matsuri 2017 で話を聞かせてください!
 また複数のセッションが投票上位に入っても、
 いずれか一つだけを選択していただく形になることはご了承ください。
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScSO5tyACa63YTChRJhY7GcCHKTwnBjBIG0LbDxhcSHhCZp1A/viewform" class="btn btn-primary">Scala Matsuri 2017 セッションの募集</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScSO5tyACa63YTChRJhY7GcCHKTwnBjBIG0LbDxhcSHhCZp1A/viewform" class="btn btn-primary">応募する</a>

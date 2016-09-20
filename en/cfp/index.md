@@ -30,4 +30,4 @@ In addition to the CFP, we might invite a few speakers to make Matsuri more fun 
 You are allowed multiple submissions. However, please note that it might end up splitting your votes,
 and that we'll ask you to select one talk even if multiple talks qualified via the survey.
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSeDofwfw36CjL2O0CP_BtxbvUhSlDsd2dzGXYhRcAWTtZas4g/viewform" class="btn btn-primary">Scala Matsuri 2017 Call for Proposal</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeDofwfw36CjL2O0CP_BtxbvUhSlDsd2dzGXYhRcAWTtZas4g/viewform" class="btn btn-primary">Submit my talk</a>
