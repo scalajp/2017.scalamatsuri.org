@@ -12,16 +12,16 @@
 #  title: イベント
 #- href: "/#tickets"
 #  title: チケット
-#- href: "/#sp"
-#  title: スポンサー
+- href: "/#sp"
+  title: スポンサー
 #- href: "/ja/staff"
 #  title: スタッフ
 - href: "/ja/code-of-conduct/"
   title: 行動規範
 #- href: "/ja/candidates/"
 #  title: 応募セッション一覧
-# - href: "/ja/sponsors/"
-#   title: スポンサー募集
+- href: "/ja/sponsors/"
+  title: スポンサー募集
 #- href: "/jobs/"
 #  title: 求人情報
 #- href: "/ja/travel/"
