@@ -1,0 +1,84 @@
+---
+title: Candidate sessions
+layout: default_en
+---
+
+<div class="alert alert-info" role="alert">
+  The following are the candidate sessions. Scala Matsuri selects sessions by participants voting later.
+</div>
+<div class="text-right">
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet"
+  data-via="{{ site.en.twitter }}"
+  data-related="{{ site.en.twitter }}"
+  data-hashtags="ScalaMatsuri">Tweet</a>
+</div>
+
+<div class="cfp-tag-list"></div>
+
+<h2>40-minute sessions in English</h2>
+<div class="shuffle-session">
+{% assign has_40en = false %}
+{% for candidate in site.candidates_en %}
+  {% if candidate.length == 40 and candidate.language == "English" %}
+    {% include_relative element.html candidate=candidate %}
+    {% assign has_40en = true %}
+  {% endif %}
+{% endfor %}
+</div>
+{% unless has_40en %}
+  <div class="text-muted">No candidates yet</div>
+{% endunless %}
+
+<h2>40-minute sessions in Japanese</h2>
+<div class="shuffle-session">
+{% assign has_40ja = false %}
+{% for candidate in site.candidates_en %}
+  {% if candidate.length == 40 and candidate.language != "English" %}
+    {% include_relative element.html candidate=candidate %}
+    {% assign has_40ja = true %}
+  {% endif %}
+{% endfor %}
+</div>
+{% unless has_40ja %}
+  <div class="text-muted">No candidates yet</div>
+{% endunless %}
+
+<h2>15-minute sessions in English</h2>
+<div class="shuffle-session">
+{% assign has15_en = false %}
+{% for candidate in site.candidates_en %}
+  {% if candidate.length == 15 and candidate.language == "English" %}
+    {% include_relative element.html candidate=candidate %}
+    {% assign has15_en = true %}
+  {% endif %}
+{% endfor %}
+</div>
+{% unless has15_en %}
+  <div class="text-muted">No candidates yet</div>
+{% endunless %}
+
+<h2>15-minute sessions in Japanese</h2>
+<div class="shuffle-session">
+{% assign has15_ja = false %}
+{% for candidate in site.candidates_en %}
+  {% if candidate.length == 15 and candidate.language != "English" %}
+    {% include_relative element.html candidate=candidate %}
+    {% assign has15_ja = true %}
+  {% endif %}
+{% endfor %}
+</div>
+{% unless has15_ja %}
+  <div class="text-muted">No candidates yet</div>
+{% endunless %}
+
+<div class="text-center" style="margin-top: 30px;">
+<a class="btn btn-info btn-lg" href="/en/cfp/">I also want to give a talk!</a>
+</div>
+
+<hr>
+{% include voting_en.html %}
+
+<script src="/js/lodash.min.js"></script>
+<script src="/js/cfp-tag.js"></script>
+
