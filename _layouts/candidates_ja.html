@@ -1,0 +1,97 @@
+---
+layout: default_ja
+---
+<div class="alert alert-info" role="alert">
+  これは応募いただいたセッションです。
+  開催されるセッションは後日、参加者の投票を参考に決定されます。
+</div>
+
+<div class="clearfix">
+{% capture enUrl %}{{ page.url | replace_first:'/ja/','/en/' }}{% endcapture %}
+{% for entry in site.candidates_en %}
+  {% if entry.url == enUrl %}
+    <span class="pull-right">
+      <a class="small" href="{{ entry.url }}">English</a>
+    </span>
+  {% endif %}
+{% endfor %}
+</div>
+
+<h1 class="session_title">{{ page.title }}</h1>
+
+{{content}}
+
+
+<dl class="dl-horizontal">
+  <dt>トークの長さ</dt>
+  <dd>
+    {% case page.length %}
+    {% when 15 %} 15分
+    {% when 40 %} 40分
+    {% when 50 %} 50分
+    {% endcase %}
+  </dd>
+
+  <dt>発表言語</dt>
+  <dd>
+    {% case page.language %}
+    {% when "Japanese" %} 日本語
+    {% when "English" %} 英語
+    {% when "English/Japanese" %} 英語/日本語
+    {% endcase %}
+  </dd>
+
+  <dt>聴衆の対象</dt>
+  <dd>
+    {% case page.audience %}
+    {% when "Beginner" %} 初心者: 分野の事前知識を必要としない
+    {% when "Intermediate" %} 中級者: 分野の基礎は分かるが、細かい所は不安
+    {% when "Advanced" %} 上級者: 分野に精通している人向けでトークでは入門の話は少なめ
+    {% endcase %}
+  </dd>
+
+
+  <dt>発表者</dt>
+  <dd>
+    {% if page.icon %}
+      <img src="{{page.icon}}" class="icon-mini">
+    {% endif %}
+
+    {{ page.name }}
+
+    {% if page.organization %}
+    ({{ page.organization}})
+    {% endif %}
+
+    {% if page.twitter %}
+    <a class="btn btn-social-icon btn-twitter btn-xs"
+     href="https://twitter.com/{{ page.twitter }}" target="_blank">
+      <i class="fa fa-twitter"></i>
+    </a>
+    {% endif %}
+
+    {% if page.github %}
+    <a class="btn btn-social-icon btn-github btn-xs"
+     href="https://github.com/{{ page.github }}" target="_blank">
+      <i class="fa fa-github"></i>
+    </a>
+    {% endif %}
+  </dd>
+</dl>
+
+<div class="text-center">
+  <a class="twitter-share-button"
+    href="https://twitter.com/intent/tweet"
+    data-via="{{ site.ja.twitter }}"
+    data-hashtags="ScalaMatsuri"
+    data-related="{{ site.ja.twitter }}{% if page.twitter %},{{ page.twitter }}"{% endif %}">
+    Tweet</a>
+</div>
+<div class="text-center" style="margin-top: 30px;">
+<a class="btn btn-info btn-lg" href="/ja/cfp/">私も何か話したい</a>
+</div>
+<hr>
+<a class="btn btn-default" href="/ja/candidates/">
+  <span class="glyphicon glyphicon-chevron-left"></span>
+  応募一覧
+</a>

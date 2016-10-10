@@ -1,0 +1,30 @@
+---
+---
+{% capture file %}{{ include.candidate.url | replace_first:'/en/candidates/','' | replace:'/','.html' }}{% endcapture %}
+<div class="row candidate-row">
+  <div class="col-sm-8">
+    <a href="{{ include.candidate.url }}">{{ include.candidate.title }}</a>
+    <div>
+      <small class="text-muted">
+        {% case include.candidate.audience %}
+        {% when "Beginner" %} Beginner
+        {% when "Intermediate" %} Intermediate
+        {% when "Advanced" %} Advanced
+        {% endcase %}
+      </small>
+      {% for tag in include.candidate.tags %}
+         <span class="cfp-tag label label-default" data-tag="{{tag}}">{{tag}}</span>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="col-sm-4">
+<!--
+    {% if include.candidate.icon %}
+      <img src="{{ include.candidate.icon }}" class="icon-mini">
+    {% else %}
+      <img src="/img/common/no_img.png" class="icon-mini">
+    {% endif %}
+-->
+    {{ include.candidate.name }}
+  </div>
+</div>

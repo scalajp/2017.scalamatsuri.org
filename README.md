@@ -38,3 +38,42 @@ _config.yml が基本設定です。
 ### 公開
 
 [github pages](https://pages.github.com/)を使用しているため、編集内容を git push すれば、自動で反映されます。
+
+### セッション応募ページの追加方法
+
+`_candidates_ja/`, `_candidates_en/` 以下にそれぞれ `(氏名)_(連番).md` を作り、日本語、英語の内容を記載します。
+例えば鈴木一郎 (Ichiro Suzuki) さんの最初の応募に対しては `IchiroSuzuki_1.md` となります。
+
+front matter (ファイル先頭の `---` と `---` で囲まれた部分) に次の内容を書きます。
+
+* name (必須): 名前
+* title (必須): トークのタイトル
+* length (必須): トークの長さ (`15` または `40`)
+* audience (必須): 聴衆の対象 (`Beginner`, `Intermediate` または `Advanced`)
+* language (必須): 発表言語 (`Japanese` または `English`)
+* twitter: Twitter アカウント
+* github: Github アカウント
+* icon: アイコンのURL
+* organization: 所属組織
+
+front matter は YAML 形式です。文字列中に `:` を含む場合は `""` でクォートします。
+
+本文にトークの概要を書きます。以下はテンプレート:
+
+```
+---
+name: X
+title: "X"
+length: 40
+audience: Intermediate
+language: English
+twitter: X
+github: X
+icon: https://X.jpeg
+organization: X
+tags:
+  - tag1
+  - tag2
+---
+ここにセッションの内容を markdown で書きます。
+```

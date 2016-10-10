@@ -1,5 +1,6 @@
 ---
 title: Scala Matsuri 2017 Call for Proposal
+layout: default_en
 ---
 
 Come share your stories at Scala Matsuri 2017!
