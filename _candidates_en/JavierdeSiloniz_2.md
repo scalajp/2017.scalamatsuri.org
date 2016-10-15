@@ -3,7 +3,7 @@ name: Javier de Siloniz
 title: "From FREE to deployment: our experience designing, developing and deploying apps based on a Free Monad architecture"
 length: 15
 audience: Intermediate
-language: English
+language: Japanese
 twitter: JaviTaiyou
 github: jdesiloniz
 organization: 47 Degrees
