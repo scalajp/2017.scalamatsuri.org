@@ -1,0 +1,18 @@
+---
+title: 求人情報
+---
+<h1>求人情報</h1>
+<div class="job">
+{% for plan in site.plans %}
+  <span class="shuffle">
+    {% for job in site.jobs %}{% if job.plan == plan %}
+    <a
+      class="job-img-link"
+      href="{% if job.direct_link %}{{ job.direct_link}}{% else %}{{ job.url }}{% endif %}"
+      >
+      <img class="logo" src="{{ job.logo }}">
+    </a>
+    {% endif %}{% endfor %}
+  </span>
+{% endfor %}
+</div>
