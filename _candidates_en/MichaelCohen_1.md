@@ -8,7 +8,8 @@ twitter: GothamTechTalk
 organization: CPI
 tags:
   - Functional Programming
-  - Best Practices, Others
+  - Best Practices
+  - Others
 ---
 I've seen all walks of Scala engineers and an equal number of companies using the tech-stack. Learning/Growing the technology is typically of primary importance to it's users, but beyond advancing the stack - what is it being used for in the real world and what does the future hold for the Scala community?
 
