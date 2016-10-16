@@ -77,3 +77,46 @@ tags:
 ---
 ここにセッションの内容を markdown で書きます。
 ```
+
+### 求人情報追加方法
+
+`_jobs/` 以下に `(スポンサー名).md` を作り、求人情報を記載します。
+
+front matter (ファイル先頭の `---` と `---` で囲まれた部分) に次の内容を書きます。
+
+* title (必須): スポンサー名
+* logo (必須): 200x70px のロゴ画像URL
+* plan (必須): shogun, daimyo, hatamoto, samurai のいずれか
+* link: 求人応募先URL
+* linkTitle: 求人応募先ボタンの文字列（デフォルト: 「応募する」）
+
+front matter は YAML 形式です。文字列中に `:` を含む場合は `""` でクォートします。
+
+以下はテンプレート:
+
+```
+---
+title: "X"
+logo: "/img/logo/x.png"
+plan: shogun
+link: "http://example.com"
+---
+X
+```
+
+#### ロゴから直接リンク
+
+求人情報ページを ScalaMatsuri サイトに追加せず、求人情報一覧ページのロゴをクリックしたときに外部サイトへ
+リンクするには、`_jobs/` 以下に `(スポンサー名).md` を作り、次の内容を記載します。
+
+* direct_link (必須): 外部サイトのURL
+* logo (必須): 200x70px のロゴ画像URL
+* plan (必須): shogun, daimyo, hatamoto, samurai のいずれか
+
+```
+---
+logo: "/img/logo/x.png"
+plan: shogun
+direct_link: "http://example.com"
+---
+```

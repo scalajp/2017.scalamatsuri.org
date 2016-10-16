@@ -22,7 +22,7 @@
   title: 応募セッション一覧
 - href: "/ja/sponsors/"
   title: スポンサー募集
-#- href: "/jobs/"
-#  title: 求人情報
+- href: "/jobs/"
+  title: 求人情報
 #- href: "/ja/travel/"
 #  title: トラベル情報
