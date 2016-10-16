@@ -8,7 +8,8 @@ twitter: GothamTechTalk
 organization: CPI
 tags:
   - Functional Programming
-  - Best Practices, Others
+  - Best Practices
+  - Others
 ---
 私は様々な Scala エンジニアや、Scala を採用した多くの会社を見てきました。
 技術の学習や技術の進歩は言語ユーザにとって最も重要なことですが、単なる技術スタックの進歩の他に考察するべきことがあると思います。現実世界ではどのような用途で採用されいるのでしょうか? また、Scala コミュニティーの未来への展望はどうなっているのでしょう?
