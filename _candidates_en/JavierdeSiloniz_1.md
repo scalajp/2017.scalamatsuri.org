@@ -1,6 +1,6 @@
 ---
 name: Javier de Siloniz
-title: "Describing computers by describing computations: writing an emulator based on an architecture based on FREE"
+title: "Building a CHIP8 emulator with a pure functional architecture based on Free Monads"
 length: 40
 audience: Intermediate
 language: English
