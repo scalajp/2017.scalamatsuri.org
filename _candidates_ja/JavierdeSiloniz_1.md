@@ -1,6 +1,6 @@
 ---
 name: Javier de Siloniz
-title: "計算を記述することで計算機を記述する: FREE に基づいたアーキテクチャによるエミュレータ"
+title: "Free モナドに基づく純粋関数型アーキテクチャを用いた CHIP8 エミュレータ"
 length: 40
 audience: Intermediate
 language: English
