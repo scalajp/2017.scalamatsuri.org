@@ -1,6 +1,6 @@
 ---
 name: Michael Cohen
-title: "地球惑星の本当の Scala エンジニア"
+title: "地球における現実の Scala エンジニア"
 length: 40
 audience: Beginner
 language: English
