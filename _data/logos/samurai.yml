@@ -7,24 +7,24 @@
 - href: "http://hatenacorp.jp/"
   title: hatena
   img: "/img/logo/hatena.png"
-- href: "javascript:void(0)"
-  title: 侍4
-  img: "/ja/img/samurai_placeholder.png"
-- href: "javascript:void(0)"
-  title: 侍5
-  img: "/ja/img/samurai_placeholder.png"
-- href: "javascript:void(0)"
-  title: 侍6
-  img: "/ja/img/samurai_placeholder.png"
-- href: "javascript:void(0)"
-  title: 侍7
-  img: "/ja/img/samurai_placeholder.png"
-- href: "javascript:void(0)"
-  title: 侍8
-  img: "/ja/img/samurai_placeholder.png"
-- href: "javascript:void(0)"
-  title: 侍9
-  img: "/ja/img/samurai_placeholder.png"
-- href: "javascript:void(0)"
-  title: 侍10
-  img: "/ja/img/samurai_placeholder.png"
+# - href: "javascript:void(0)"
+#   title: 侍4
+#   img: "/ja/img/samurai_placeholder.png"
+# - href: "javascript:void(0)"
+#   title: 侍5
+#   img: "/ja/img/samurai_placeholder.png"
+# - href: "javascript:void(0)"
+#   title: 侍6
+#   img: "/ja/img/samurai_placeholder.png"
+# - href: "javascript:void(0)"
+#   title: 侍7
+#   img: "/ja/img/samurai_placeholder.png"
+# - href: "javascript:void(0)"
+#   title: 侍8
+#   img: "/ja/img/samurai_placeholder.png"
+# - href: "javascript:void(0)"
+#   title: 侍9
+#   img: "/ja/img/samurai_placeholder.png"
+# - href: "javascript:void(0)"
+#   title: 侍10
+#   img: "/ja/img/samurai_placeholder.png"
