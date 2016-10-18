@@ -1,6 +1,6 @@
 ---
 name: Mateusz Dymczyk
-title: "Spark についていく"
+title: "Spark の最新情報"
 length: 40
 audience: Intermediate
 language: English
