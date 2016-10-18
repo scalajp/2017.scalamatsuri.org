@@ -6,6 +6,7 @@ audience: Intermediate
 language: Japanese
 twitter: takezoux2
 github: takezoux2
+organization: 芸者東京エンターテインメント株式会社
 tags:
   - Best Practices
   - DevOps
