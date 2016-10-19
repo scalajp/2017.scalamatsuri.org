@@ -1,6 +1,5 @@
 ---
 name: Michał Matłoka
-title: "What can a programmer learn from having children?"
 title: プログラマは子供を持つことから何を学べるか？
 length: 15
 audience: Beginner
