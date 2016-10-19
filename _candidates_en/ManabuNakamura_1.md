@@ -12,6 +12,6 @@ tags:
   - Software Design and Architecture
 ---
 It's often said that Scala code is difficult to read.
-In many cases, this is caused by irregular use of language features beyond their original intent, or by excessive abstraction that no longer expresses the purpose of the code.
+In many cases, this is caused by irregular use of language features beyond their original intent or by excessive abstraction that no longer expresses the purpose of the code.
 The language features of Scala were well thought out to make the code more readable, not less.
 In this session, we will first solidify our understanding of the motives behind the language features, then propose guidelines to write more readable Scala code.
