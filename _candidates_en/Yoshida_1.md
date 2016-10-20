@@ -11,4 +11,4 @@ tags:
   - Tools
   - Others
 ---
-ScalikeJDBC is a powerful and flexible DB access library. In combination with Skinny ORM, we can create a better relationship with the database. I'll introduce a case-study utilizing SQL to tackle the difficulty of database and friendly CRUD API based on one year work experience.
+ScalikeJDBC is a powerful and flexible database access library. In conjunction with Skinny ORM, it provides better handling of databases. I'll share my experience of using these in production for a year. I've found that SQL provides more direct access to databases, whereas the CRUD API provides an easier to use wrapper around the database. 
