@@ -1,5 +1,5 @@
 ---
-name: KrzysztofCiesielski
+name: "Krzysztof Ciesielski"
 title: "Akka Streams による Kafka の Reactive化"
 length: 40
 audience: Intermediate
