@@ -1,6 +1,6 @@
 ---
 name: "Konrad Malawski"
-title: "Akka Streams, from blueprint to running engine"
+title: "Akka stream、青写真から実行エンジンまで"
 length: 15
 audience: Advanced
 language: English
