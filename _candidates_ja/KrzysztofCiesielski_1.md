@@ -1,6 +1,6 @@
 ---
 name: "Krzysztof Ciesielski"
-title: "Akka Streams による Kafka の Reactive化"
+title: "Akka Streams による Kafka の Reactive 化"
 length: 40
 audience: Intermediate
 language: English
@@ -12,4 +12,4 @@ tags:
   - Functional Programming
   - Tools
 ---
-Apache Kafka は今やモダンな分散システムを構築する際に広く採用されるようになりました。 このトークでは、Akka Streams を使ってこの Kafka を reactive ストリームとしてシステム内で使用することで、Kafka をさらにパワーアップさせる方法をご紹介します。トークの中では、パーティションで分けられたプルベースの分散ログを構築したり、非同期のバックプレッシャー制御されたストリーミングモデルを構築する際に、Reactive Kafka ライブラリが如何に最適であり、エレガントに役割にマッチするかについて、例を交えてご紹介します。
+Apache Kafka は、モダンな分散システムにおいて広く採用されるようになってきました。この発表では、Kafka がリアクティブなストリームであることを明らかにすることで、Akka Streams がいかにして Kafka をさらにパワーアップさせるかを紹介します。発表の中では、パーティション分割されたプル型の分散ログや、バックプレッシャー制御された非同期ストリーミングモデルを構築する際に、Reactive Kafka ライブラリの活用がいかに最適であり見事に適合するかを例を交えて紹介します。
