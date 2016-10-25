@@ -11,6 +11,6 @@ tags:
   - Software Design and Architecture
   - Others
 ---
-GraphQL is a query language developed by Facebook. It is worth taking a look at it if you are aware of REST API' limitations and want to replace it!
+GraphQL is a query language developed by Facebook. It is worth exploring if you are aware of REST API's limitations and want to replace it.
 
-Let's experience flexibility of an API using GraphQL in Scala.
+Let's experience the flexibility of an API using GraphQL in Scala!
