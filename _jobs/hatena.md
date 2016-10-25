@@ -9,5 +9,5 @@ link: "http://hatenacorp.jp/recruit/"
 
 Scalaでウェブサービスを開発し、人の生活を豊かにしたいあなた、ぜひご応募ください！ 現在、ウェブオペレーションエンジニアも積極採用中です。詳しくは採用ページや開発者ブログをご覧ください。
 
-[採用情報 - 株式会社はてな](http://hatenacorp.jp/recruit/)
+[採用情報 - 株式会社はてな](http://hatenacorp.jp/recruit/)  
 [Hatena Developer Blog](http://developer.hatenastaff.com/)
