@@ -8,8 +8,8 @@ twitter: OE_uia
 github: taisukeoe
 organization: BONX, INC.
 tags:
-  - Best Practices,
-  - Intro to Scala,
+  - Best Practices
+  - Intro to Scala
   - Software Design and Architecture
 ---
 Scalaはパワフルでかつ、柔軟な言語です。
