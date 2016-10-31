@@ -10,6 +10,6 @@ organization: OPT, Inc.
 tags:
   - Tools
 ---
-ScalaのDBライブラリは色々ありますが、その中でも、発行されるSQLの分かりやすさや複雑なSQLにも対応可能な柔軟性から、ScalikeJDBCは有力な選択肢です。
+There are various database access libraries in Scala, but ScalikeJDBC is an attractive option because of its understandable generated SQLs and flexibility to support complex SQLs.
 
-このセッションでは、ScalikeJDBCの基本要素から始めて、サブクエリを含んだ複雑なクエリの組み立て方、および実際に導入する上でのTIPSなどをご紹介します。
+This session will look at ScalikeJDBC from the basics, how to build complex queries including sub-query and topics to introduce it into our products.
