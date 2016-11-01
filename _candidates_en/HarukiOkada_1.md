@@ -10,6 +10,6 @@ organization: OPT, Inc.
 tags:
   - Tools
 ---
-There are various database access libraries in Scala, but ScalikeJDBC is an attractive option because of its understandable generated SQLs and flexibility to support complex SQLs.
+There are various database access libraries in Scala, but ScalikeJDBC is an attractive option because of its generation of comprehensible  SQLs as well as its flexibility to support complex SQLs.
 
-This session will look at ScalikeJDBC from the basics, how to build complex queries including sub-query and topics to introduce it into our products.
+This session will explore the basics of ScalikeJDBC, including how to build complex queries with sub-query and ways to introduce it into our products.
