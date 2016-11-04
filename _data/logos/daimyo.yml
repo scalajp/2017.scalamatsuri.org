@@ -13,3 +13,6 @@
 - href: "http://www.opt.ne.jp/opttechnologies/"
   title: opt
   img: "/img/logo/opt.gif"
+- href: "http://developer.lightbend.com/"
+  title: lightbend
+  img: "/img/logo/lightbend.png"
