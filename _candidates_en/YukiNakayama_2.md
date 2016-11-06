@@ -1,6 +1,6 @@
 ---
 name: "Yuki Nakamura"
-title: "Revisiting "I switched my job thanks to ScalaMatsuri”"
+title: "Revisiting ”I switched my job thanks to ScalaMatsuri”"
 length: 15
 audience: Beginner
 language: Japanese
