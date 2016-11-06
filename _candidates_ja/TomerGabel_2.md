@@ -1,6 +1,6 @@
 ---
 name: Tomer Gabel
-title: "Functional Leap of Faith"　<- TBD
+title: "関数型に飛び込む"
 length: 40
 audience: Beginner
 language: English
