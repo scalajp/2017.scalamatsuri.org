@@ -10,10 +10,10 @@ organization: Japan Java User Group, Japan Kotlin User Group
 tags:
   - Intro to Scala
 ---
-Scala kept me away for a long time because I've held a "prejudice" that it's a difficult language.
+I stayed away from Scala for a long time because I've held a "prejudice" that it was a difficult language.
 
-Meanwhile, I've ran into a language called Kotlin, spent a few days learning the basic syntax, and grown to be active in their community -- giving talks, writing blog post.
+During this time, I've discovered a language called Kotlin, spent a few days learning the basic syntax, and have grown to be active in their community -- giving talks, writing blog posts, etc.
 
-When I returned to Scala recently, I felt like the distance between me and Scala has shortened considerably. I was able to comprehend the basic syntax much smoother than before. I'm stil a greenhorn, but I've become proficient enough to whip out hobby apps in Scala.
+I've recently returned to Scala, and I feel that the gap between me and Scala has closed considerably. I am now able to comprehend the basic syntax much mre smoothly than before. I'm still a greenhorn, but I've become proficient enough to whip out hobby apps in Scala.
 
-In this session, I'd like to discuss the possibility of learning Scala after learning Kotlin, and some of the pitfalls around it.
+In this session, I'd like to discuss the pros and cons of learning Scala after learning Kotlin.
