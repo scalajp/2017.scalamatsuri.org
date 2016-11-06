@@ -1,5 +1,5 @@
 ---
-name: "Yuki Nakamura"
+name: "Yuki Nakayama"
 title: "Revisiting ”I switched my job thanks to ScalaMatsuri”"
 length: 15
 audience: Beginner
