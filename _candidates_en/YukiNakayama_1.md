@@ -9,6 +9,6 @@ github: pocketberserker
 tags:
   - Functional Programming
 ---
-Free and Free Applicative have come be used in many scenes.
-I think a unit testing framework could be one of their applications.
-In this session, I will illustrate the design and the implementation of test DSL using Free and Free Applicative.
+Free and Free Applicative have come to be used in many different scenes.
+I think a unit testing framework could also be one of their applications.
+In this session, I will illustrate the design and implementation of test DSL using Free and Free Applicative.
