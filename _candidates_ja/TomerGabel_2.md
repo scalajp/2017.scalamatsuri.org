@@ -1,6 +1,6 @@
 ---
 name: Tomer Gabel
-title: "関数型に飛び込む"
+title: "関数型へジャンプ! ☆"
 length: 40
 audience: Beginner
 language: English
