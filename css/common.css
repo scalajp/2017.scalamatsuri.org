@@ -433,28 +433,22 @@ input, select {
 	font-weight:normal;
 }
 
-.sectionStyle6{
-	background:url(../img/common/bg_sc2.png);
-	background-size:cover;
-	padding-bottom:80px;
+.sectionTicket{
+	padding-bottom:20px;
 }
 
-.sectionStyle6 h2{
-	color:#fff;
-}
 
-.sectionStyle6 .subTtlSm{
-	color:#fff;
-}
 
-.sectionStyle6 .inqBox{
-	background:#fff;
-	width:408px;
+.sectionTicket .sectionTicketInner{
 	margin:0 auto 0 auto;
+	padding-bottom:40px;
 	text-align: center;
-	padding-top:50px;
-	padding-bottom:50px;
+	padding-top:40px;
 }
+.sectionTicket .sectionTicketInner p {
+	font-size:20px;
+}
+
 
 .sectionStyle2Inner .sectionHeadArea{
 	width:400px;
@@ -505,8 +499,8 @@ input, select {
 	width:760px;
 }
 
-.sectionStyle6 .sectionHeadArea{
-	width:760px;
+.sectionTicket .sectionHeadArea{
+	width:500px;
 }
 
 .sectionStyle7 .sectionHeadArea, .sectionInquiry .sectionHeadArea {
@@ -638,6 +632,7 @@ input, select {
 	margin-bottom: 40px;
 	line-height: 28px;
 }
+
 
 .navLinks ul li{
 	width:33.3%;
@@ -901,13 +896,6 @@ h1.session_title {
 	}
 
 
-	.sectionStyle6 .sectionHeadArea{
-		width:96%;
-		margin:0 auto 0 auto;
-	}
-
-
-
 
 	.sectionStyle4 .contTxtArea{
 		width:96%;
@@ -942,15 +930,15 @@ h1.session_title {
 @media screen and (max-width: 560px){
 
 		.mainVisInner h1 img{
-		width:90%;
-	}
+			width:90%;
+		}
 
 		.sectionStyle5 h2{
 			position: relative;
 			height:76px;
 		}
 
-		.sectionStyle6 h2{
+		.sectionTicket h2{
 			position: relative;
 			height:76px;
 		}
@@ -977,27 +965,6 @@ h1.session_title {
 			margin-left:-33%;
 		}
 
-		.sectionStyle6 .sectionHeadArea .ttlSubLLeft{
-			width:12%;
-		}
-
-		.sectionStyle6 .sectionHeadArea .ttlSubLLeft img{
-			width:100%;
-		}
-
-		.sectionStyle6 .sectionHeadArea .ttlSubLRight{
-			width:12%;
-		}
-
-		.sectionStyle6 .sectionHeadArea .ttlSubLRight img{
-			width:100%;
-		}
-
-		.sectionStyle6 .sectionHeadArea .ttlSubLCenter{
-			width:66%;
-			left:50%;
-			margin-left:-33%;
-		}
 
 		.sectionStyle3 .sectionHeadArea{
 			width:100%;
@@ -1109,14 +1076,13 @@ h1.session_title {
 		width:96%;
 	}
 
-	.sectionStyle6 .inqBox{
+	.sectionTicket .inqBox{
 		width:100%;
 	}
 
 	.sectionHeadArea .ttlSubLLeft{
 		width:15%;
 	}
-
 
 	.sectionHeadArea .ttlSubLLeft img{
 		width:100%;
