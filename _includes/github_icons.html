@@ -1,0 +1,9 @@
+{% if include.accounts %}
+{% assign accounts = include.accounts | split: "," %}
+{% for account in accounts %}
+<a class="btn btn-social-icon btn-github btn-xs"
+  href="https://github.com/{{ account | strip }}" target="_blank">
+  <i class="fa fa-github"></i>
+</a>
+{% endfor %}
+{% endif %}

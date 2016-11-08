@@ -51,8 +51,8 @@ front matter (ファイル先頭の `---` と `---` で囲まれた部分) に�
 * length (必須): トークの長さ (`15` または `40`)
 * audience (必須): 聴衆の対象 (`Beginner`, `Intermediate` または `Advanced`)
 * language (必須): 発表言語 (`Japanese` または `English`)
-* twitter: Twitter アカウント
-* github: Github アカウント
+* twitter: Twitter アカウント (連名の場合はカンマ区切りで記載する。例: `taro,hanako`)
+* github: Github アカウント (連名の場合はカンマ区切りで記載する。例: `taro,hanako`)
 * icon: アイコンのURL
 * organization: 所属組織
 

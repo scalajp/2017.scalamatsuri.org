@@ -62,19 +62,9 @@ layout: default_en
     ({{ page.organization}})
     {% endif %}
 
-    {% if page.twitter %}
-    <a class="btn btn-social-icon btn-twitter btn-xs"
-     href="https://twitter.com/{{ page.twitter }}" target="_blank">
-      <i class="fa fa-twitter"></i>
-    </a>
-    {% endif %}
+    {% include twitter_icons.html accounts=page.twitter %}
+    {% include github_icons.html accounts=page.github %}
 
-    {% if page.github %}
-    <a class="btn btn-social-icon btn-github btn-xs"
-     href="https://github.com/{{ page.github }}" target="_blank">
-      <i class="fa fa-github"></i>
-    </a>
-    {% endif %}
   </dd>
 </dl>
 
