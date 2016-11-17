@@ -1,6 +1,6 @@
 ---
 name: 加藤 潤一
-title: "チャットワーク社 Scala導入の失敗と成功の歴史"
+title: "ChatWorkのScala採用プロダクト “Falcon” リリースまでの失敗と成功の歴史"
 length: 40
 audience: Intermediate
 language: Japanese
