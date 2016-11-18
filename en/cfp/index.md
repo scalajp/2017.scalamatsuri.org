@@ -5,7 +5,7 @@ layout: default_en
 
 Come share your stories at Scala Matsuri 2017!
 
-We are excited to announce that the fourth Scala Matsuri will be held on February 25th and 26th, 2017 at Tokyo International Exchange Center. Please submit your sessions and save the dates on your calendar. This CFP will be closed on **November 20th 00:00 JST**.
+We are excited to announce that the fourth Scala Matsuri will be held on February 25th and 26th, 2017 at Tokyo International Exchange Center. Please submit your sessions and save the dates on your calendar. This CFP will be closed on **Sunday, November 20th 24:00 JST**. (7:00 Pacific, 10:00 Eastern in US)
 
 Matsuri, meaning festival, is about time and space out of the everyday. It’s about mustering up the courage to do something cool (even though we are normally shy).
 We want to make it a fun experience, regardless of gender, race, and many different backgrounds.
