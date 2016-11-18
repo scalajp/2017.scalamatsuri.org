@@ -1,6 +1,6 @@
 ---
 name: Marconi Lanna
-title: "Beautiful Scala"
+title: "ビューティフル・Scala"
 length: 40
 audience: Beginner
 language: English
