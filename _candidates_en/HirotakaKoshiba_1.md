@@ -9,5 +9,5 @@ tags:
   - Best Practices
 ---
 Ad distribution systems tend to require high performance.
-To squeeze out every bit of the performance, there are dozens of small improvements we make to the code.
-In this short talk, I'll introduce all of the details we employ, which might appear self-evident, or trivial to care in a normal situation.
+To squeeze out every bit of performance, there are dozens of small improvements we can make to the code.
+In this short talk, I'll introduce all of the details that we employ, which might appear self-evident or trivial in normal situations, but do make a difference.
