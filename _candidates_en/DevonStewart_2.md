@@ -4,7 +4,7 @@ title: "Making the most of the Future[T]"
 length: 15
 audience: Beginner
 language: English
-twitter: blast-hardchese
+twitter: blast_hardchese
 github: blast-hardcheese
 organization: Twilio
 tags:

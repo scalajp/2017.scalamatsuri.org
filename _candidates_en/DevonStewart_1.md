@@ -4,7 +4,7 @@ title: "Lessons learned migrating to Reactive Streaming Architecture"
 length: 40
 audience: Intermediate
 language: English
-twitter: blast-hardchese
+twitter: blast_hardchese
 github: blast-hardcheese
 organization: Twilio
 tags:
