@@ -1,6 +1,6 @@
 ---
 name: Devon Stewart
-title: "より良いFuture[T]の作り方"
+title: "Future[T] を最大限に活用する"
 length: 15
 audience: Beginner
 language: English
@@ -13,6 +13,6 @@ tags:
   - Intro to Scala
   - Software Design and Architecture
 ---
-この講演では、ScalaのFuture [T]を使用して、処理の失敗を制御したりやブロックしてしまう処理を避ける抽象化を理解する方法について説明します。 
+このトークでは、Scala の Future[T] が提供する抽象化を用いてブロック処理を回避したり、失敗ケースをうまく処理できるのかを解説します。
 
-自宅で出来るエクササイズや例を用いて、共通の落とし穴とベストプラクティスを特にご紹介します。
+よくある落とし穴、ベストプラクティス、そして持ち帰りエクササイズや例題などを交えてご紹介します。
