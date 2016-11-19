@@ -9,9 +9,9 @@ tags:
   - Tools
   - Best Practices
 ---
-Actor model has been attracting attention lately.
-The concept itself emerged in the 1970s, but it is a new paradigm for programmers who are familiar with object-oriented programming, and thus there are many pitfalls that we can make mistakes on.
-For example, if we tried to interpret the actor model concept such as "let it crash" and superviser in an object-oriented way, we would end up making wrong design.
-Since Akka Actor is attracting attention as an actor model implementation in Scala, many might be trying it for the first.
+The Actor Model has been attracting attention lately.
+The concept itself emerged in the 1970s, but for programmers who are familiar with object-oriented programming, it is a new paradigm. Due to this, there are many pitfalls where mistakes can be made.
+For example, if we tried to interpret the Actor Model concept of "let it crash" and then superviser in an object-oriented way, we would end up designing it incorrectly.
+Since Akka Actor is attracting attention as an Actor Model implementation in Scala, many might be trying it for the first time.
 
-In this session, we would like to share our design and development guidelines using Actor, so we can better handle Akka Actor, and to not repeat our mistakes.
+In this session, we would like to share our design and development guidelines for using Actor, so we and others can better use Akka Actor without repeating our mistakes.
