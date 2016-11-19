@@ -11,6 +11,6 @@ tags:
   - Software Design and Architecture
   - Others
 ---
-In this talk, I will explore Graphic User Interface (GUI) programming using Scalafx to show how fun it is code using Scala, especially GUIs.
-By comparing the samples in Java, I will show how concise Scala is.
-I hope I can bring some useful advices to you on implmenting better GUIs.
+In this talk, I will explore Graphic User Interface (GUI) programming using Scalafx to show how fun it is to code using Scala, especially GUIs.
+By comparing the samples in Java, I will show just how concise Scala is.
+I hope to provide useful advice on implmenting better GUIs.
