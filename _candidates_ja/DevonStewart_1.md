@@ -1,6 +1,6 @@
 ---
 name: Devon Stewart
-title: "Lessons learned migrating to Reactive Streaming Architecture"
+title: "リアクティブ・ストリーミング・アーキテクチャへ移行する際の教訓"
 length: 40
 audience: Intermediate
 language: English
@@ -12,7 +12,7 @@ tags:
   - Best Practices
   - Software Design and Architecture
 ---
-この講演では、強調したベストプラクティス, 落とし穴, そしてレガシーな一枚岩のサービスからリアクティブストリーミングアーキテクチャへ移行するプロセスの記録にとどめた事を話す予定です.
+このトークでは、レガシーなモノリシックなサービスからリアクティブ・ストリーミング・アーキテクチャへ移行する際のベスト・プラクティス、ハマり所、時系列ごとの移行プロセスについて解説します。
 
 以下のトピックを含みます:  
   - catsを含めた抽象化
