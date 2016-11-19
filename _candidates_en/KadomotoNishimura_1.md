@@ -12,5 +12,5 @@ tags:
   - Microservices
 ---
 We are launching our own API Gateway/OAuth 2.0 authentication this winter as a case study of Akka HTTP adoption.
-Flexibility in configuration, high availability, high throughput, and security are all going to be required for this service as it  undertakes the API load from 20 million DMM.com members via 20-plus web services and client application.
-In this session, we will introduce the reasons we chose JVM, Scala, Akka Streams, and Akka HTTP as the archecture; impression on going all-out on Scalaz; and various challenges that arose during the development and the operation and how we resolved them.
+Flexibility in configuration, high availability, high throughput, and security are all going to be required for this service as it  undertakes the API load from 20 million DMM.com members via 20-plus web services and client applications.
+In this session, we will introduce the reasons we chose JVM, Scala, Akka Streams, and Akka HTTP as the architecture, our impression on going all-out on Scalaz, and how we resolved various challenges that arose during development and operation.
