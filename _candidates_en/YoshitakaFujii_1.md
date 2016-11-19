@@ -1,6 +1,6 @@
 ---
 name: Yoshitaka Fujii
-title: "Let's build a Serverless Architecture in Scala!"
+title: "Let's Build a Serverless Architecture in Scala!"
 length: 40
 audience: Intermediate
 language: Japanese
