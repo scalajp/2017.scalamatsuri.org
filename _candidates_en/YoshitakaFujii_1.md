@@ -12,6 +12,6 @@ tags:
   - Software Design and Architecture
   - Microservices
 ---
-For this session, I challenged myself to build a Serverless Architecture based system thoroughly in Scala.
+For this session, I've given my best shot at constructing a Scala-based system for Serverless Architecture.
 I developed an sbt-plugin that connects the AWS API Gateway and Lambda together in an optimal combination to leverage their features.
 I will also introduce some important tips on utilizing asynchronous processing in Scala to connect Kinesis with Lambda in the Serverless Architecture system.
