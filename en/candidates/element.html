@@ -1,7 +1,7 @@
 ---
 ---
 {% capture file %}{{ include.candidate.url | replace_first:'/en/candidates/','' | replace:'/','.html' }}{% endcapture %}
-<div class="row candidate-row">
+<div class="row candidate-row" data-length="{{ include.candidate.length }}" data-language="{{ include.candidate.language }}" data-file="{{ file }}">
   <div class="col-sm-8">
     <a href="{{ include.candidate.url }}">{{ include.candidate.title }}</a>
     <div>
