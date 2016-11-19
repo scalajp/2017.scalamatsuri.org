@@ -11,9 +11,9 @@ tags:
   - Tools
   - Best Practices
 ---
-The current tech lead of the sbt development team Eugene (@eed3si9n) will review:
+The current tech lead of the sbt development team, Eugene (@eed3si9n), will review:
 
-- the sbt 0.13.x series that's been under development as technology preview since 2014
+- the sbt 0.13.x series that's been under development as a technology preview since 2014
 - the sbt server feature which is planned to be shipped with the next major sbt release
 - and the rest of sbt 1.0
 
