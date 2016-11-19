@@ -1,5 +1,5 @@
----
----
+
+
 
 $ ->
   allTags = $('.cfp-tag').map (idx, el) ->
