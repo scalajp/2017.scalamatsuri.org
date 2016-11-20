@@ -1,6 +1,6 @@
 ---
 name: Connie Chen
-title: "紋切り型を減らし作用を組み合わせる: モナド変換子を例に"
+title: "ボイラープレートの削減と作用の組み合わせ: 例で見るモナド変換子"
 length: 15
 audience: Intermediate
 language: English
