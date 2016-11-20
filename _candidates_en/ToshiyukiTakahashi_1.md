@@ -1,6 +1,6 @@
 ---
 name: Toshiyuki Takahashi
-title: "Object-oriented framework construction and Functional domain description"
+title: "Object-oriented framework construction and functional domain description"
 length: 40
 audience: Intermediate
 language: Japanese
@@ -10,4 +10,4 @@ tags:
   - Best Practices
   - Software Design and Architecture
 ---
-I will talk about an example of application design taking advantage of Scala which is a hybrid language of object-oriented approach and functional programming. I will also present how Scala's language features and techniques can be applied to issues such as how to separate side effects, describe dependency between components and their lifecycle, keep domain models pure and manipulate them.
+In this session, I will give an example of an application design that takes advantage of the hybrid language of object-oriented approach and functional programming that Scala provides. I will also present how Scala's language features and techniques can be applied to problems such as how to separate side effects, describing dependency between components and their lifecycle, and keep domain models pure and manipulating them.
