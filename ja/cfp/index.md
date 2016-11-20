@@ -4,6 +4,10 @@ title: Scala Matsuri 2017 セッションの募集
 
 Scala Matsuri 2017 で話を聞かせてください!
 
+**セッション募集は締めきりました。たくさんのご応募ありがとうございました！**
+
+----
+
 4回目のScalaMatsuriとして、 2017年2月25日 - 26日、東京国際交流会館にて Scala Matsuri 2017
 を開催します。あなたのセッションをぜひご応募ください。締め切りは **11月20日24:00 JST** です。
 
@@ -36,4 +40,4 @@ Scala Matsuri 2017 で話を聞かせてください!
 また複数のセッションが投票上位に入っても、
 いずれか一つだけを選択していただく形になることはご了承ください。
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScSO5tyACa63YTChRJhY7GcCHKTwnBjBIG0LbDxhcSHhCZp1A/viewform" class="btn btn-primary">応募する</a>
+<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLScSO5tyACa63YTChRJhY7GcCHKTwnBjBIG0LbDxhcSHhCZp1A/viewform" class="btn btn-primary">応募する</a> -->

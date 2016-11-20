@@ -3,6 +3,10 @@ title: Scala Matsuri 2017 Call for Proposal
 layout: default_en
 ---
 
+CFP is now closed. Thank you very much!
+
+----
+
 Come share your stories at Scala Matsuri 2017!
 
 We are excited to announce that the fourth Scala Matsuri will be held on February 25th and 26th, 2017 at Tokyo International Exchange Center. Please submit your sessions and save the dates on your calendar. This CFP will be closed on **Sunday, November 20th 24:00 JST**. (7:00 Pacific, 10:00 Eastern in US)
@@ -31,4 +35,4 @@ In addition to the CFP, we might invite a few speakers to make Matsuri more fun 
 You are allowed multiple submissions. However, please note that it might end up splitting your votes,
 and that we'll ask you to select one talk even if multiple talks qualified via the survey.
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSeDofwfw36CjL2O0CP_BtxbvUhSlDsd2dzGXYhRcAWTtZas4g/viewform" class="btn btn-primary">Submit my talk</a>
+<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDofwfw36CjL2O0CP_BtxbvUhSlDsd2dzGXYhRcAWTtZas4g/viewform" class="btn btn-primary">Submit my talk</a> -->
