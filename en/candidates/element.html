@@ -4,6 +4,12 @@
 <div class="row candidate-row" data-length="{{ include.candidate.length }}" data-language="{{ include.candidate.language }}" data-file="{{ file }}">
   <div class="col-sm-8">
     <a href="{{ include.candidate.url }}">{{ include.candidate.title }}</a>
+    <span class="cfp-voting-required-signin">
+      <button type="button" class="btn btn-default btn-sm add-favorites-btn" title="Pin"><i class="fa fa-thumb-tack" aria-hidden="true"></i></button>
+      <button type="button" class="btn btn-default btn-sm remove-favorites-btn" title="Remove pin"><i class="fa fa-thumb-tack" aria-hidden="true"></i></button>
+      <button type="button" class="btn btn-default btn-sm vote-btn" title="Vote"><i class="fa fa-star" aria-hidden="true"></i></button>
+      <button type="button" class="btn btn-default btn-sm unvote-btn" title="Cancel voting"><i class="fa fa-star" aria-hidden="true"></i></button>
+    </span>
     <div>
       <small class="text-muted">
         {% case include.candidate.audience %}

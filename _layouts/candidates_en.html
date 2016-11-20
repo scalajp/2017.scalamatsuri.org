@@ -16,7 +16,12 @@ layout: default_en
 {% endfor %}
 </div>
 
-<h1 class="session_title">{{ page.title }}</h1>
+<h1 class="session_title">{{ page.title }}
+<span class="cfp-voting-required-signin">
+  <button type="button" class="btn btn-default add-favorites-btn" id="add-favorites-btn" title="Pinning"><i class="fa fa-2x fa-thumb-tack" aria-hidden="true"></i></button>
+  <button type="button" class="btn btn-default remove-favorites-btn" id="remove-favorites-btn" title="Remove pin"><i class="fa fa-2x fa-thumb-tack" aria-hidden="true"></i></button>
+</span>
+</h1>
 
 {{content}}
 
@@ -78,8 +83,18 @@ layout: default_en
 </div>
 <div class="text-center" style="margin-top: 30px;">
 <a class="btn btn-info btn-lg" href="/en/cfp/">I also want to give a talk!</a>
+<span class="cfp-voting-required-signin">
+  <button type="submit" class="btn btn-success btn-lg btn-lnk" id="vote-btn" data-language="{{ page.language }}" data-length="{{ page.length }}">Vote this session</button>
+  <button type="submit" class="btn btn-danger btn-lg btn-lnk" id="unvote-btn">Cancel voting</button>
+</span>
 </div>
 <hr>
+<div class="cfp-voting-required-signin pull-right text-right">
+  <p>
+    Japanese Session: <span class="badge" id="lang-ja-voted-count"></span> voted / <span class="badge" id="max-voting-in-ja"></span> votable <br />
+    English Session: <span class="badge" id="lang-en-voted-count"></span> voted / <span class="badge" id="max-voting-in-en"></span> votable
+  </p>
+</div>
 <a class="btn btn-default" href="/en/candidates/">
   <span class="glyphicon glyphicon-chevron-left"></span>
   Candidate sessions

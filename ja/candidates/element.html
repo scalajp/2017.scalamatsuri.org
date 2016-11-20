@@ -4,6 +4,12 @@
 <div class="row candidate-row" data-length="{{ include.candidate.length }}" data-language="{{ include.candidate.language }}" data-file="{{ file }}">
   <div class="col-sm-8">
     <a href="{{ include.candidate.url }}">{{ include.candidate.title }}</a>
+    <span class="cfp-voting-required-signin">
+      <button type="button" class="btn btn-default btn-sm add-favorites-btn" title="ピン止め"><i class="fa fa-thumb-tack" aria-hidden="true"></i></button>
+      <button type="button" class="btn btn-default btn-sm remove-favorites-btn" title="ピン止め解除"><i class="fa fa-thumb-tack" aria-hidden="true"></i></button>
+      <button type="button" class="btn btn-default btn-sm vote-btn" title="投票"><i class="fa fa-star" aria-hidden="true"></i></button>
+      <button type="button" class="btn btn-default btn-sm unvote-btn" title="投票取消"><i class="fa fa-star" aria-hidden="true"></i></button>
+    </span>
     <div>
       <small class="text-muted">
         {% case include.candidate.audience %}

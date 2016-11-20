@@ -16,6 +16,19 @@ title: 応募セッション一覧
 
 <div class="cfp-tag-list"></div>
 
+<div class="cfp-voting-required-signin text-right">
+  <p>
+    <button id="filter-favorites" type="button" class="btn btn-default"><i class="fa fa-thumb-tack" style="color: #000099;" title="ピン止め"></i> ピン止めだけ表示</button>
+    <button id="unfilter-favorites" type="button" class="btn btn-default active"><i class="fa fa-thumb-tack" style="color: #000099;" title="ピン止め"></i> ピン止めだけ表示</button>
+    <button id="filter-voted" type="button" class="btn btn-default"><i class="fa fa-star" style="color: #eedd00;" title="投票済み"></i> 投票済みだけ表示</button>
+    <button id="unfilter-voted" type="button" class="btn btn-default active"><i class="fa fa-star" style="color: #eedd00;" title="投票済み"></i> 投票済みだけ表示</button>
+  </p>
+  <p>
+    日本語セッション <span class="badge" id="max-voting-in-ja"></span> 票中 <span class="badge" id="lang-ja-voted-count"></span> 票投票済み<br />
+    英語セッション <span class="badge" id="max-voting-in-en"></span> 票中 <span class="badge" id="lang-en-voted-count"></span> 票投票済み
+  </p>
+</div>
+
 <h2>40分英語</h2>
 <div class="shuffle-session">
 {% assign has_40en = false %}

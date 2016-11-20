@@ -17,7 +17,12 @@ layout: default_ja
 {% endfor %}
 </div>
 
-<h1 class="session_title">{{ page.title }}</h1>
+<h1 class="session_title">{{ page.title }}
+<span class="cfp-voting-required-signin">
+  <button type="button" class="btn btn-default add-favorites-btn" id="add-favorites-btn" title="ピン止め"><i class="fa fa-2x fa-thumb-tack" aria-hidden="true"></i></button>
+  <button type="button" class="btn btn-default remove-favorites-btn" id="remove-favorites-btn" title="ピン止め解除"><i class="fa fa-2x fa-thumb-tack" aria-hidden="true"></i></button>
+</span>
+</h1>
 
 {{content}}
 
@@ -78,8 +83,18 @@ layout: default_ja
 </div>
 <div class="text-center" style="margin-top: 30px;">
 <a class="btn btn-info btn-lg" href="/ja/cfp/">私も何か話したい</a>
+<span class="cfp-voting-required-signin">
+  <button type="submit" class="btn btn-success btn-lg btn-lnk" id="vote-btn" data-language="{{ page.language }}" data-length="{{ page.length }}">このセッションに投票する </button>
+  <button type="submit" class="btn btn-danger btn-lg btn-lnk" id="unvote-btn">このセッションへの投票を取消す</button>
+</span>
 </div>
 <hr>
+<div class="cfp-voting-required-signin pull-right text-right">
+  <p>
+    日本語セッション <span class="badge" id="max-voting-in-ja"></span> 票中 <span class="badge" id="lang-ja-voted-count"></span> 票投票済み<br />
+    英語セッション <span class="badge" id="max-voting-in-en"></span> 票中 <span class="badge" id="lang-en-voted-count"></span> 票投票済み
+  </p>
+</div>
 <a class="btn btn-default" href="/ja/candidates/">
   <span class="glyphicon glyphicon-chevron-left"></span>
   応募一覧
