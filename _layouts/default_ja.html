@@ -46,6 +46,7 @@
     <![endif]-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
   </head>
   <body>
@@ -56,32 +57,32 @@
             ScalaMatsuri 2017
           </a>
         </div>
-        <ul class="nav navbar-nav navbar-right" id="cfp-voting-navi">
-          <li class="dropdown" id="sign-out" style="display: none;">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><img class="icon-mini img-responsive img-rounded" src="" id="user-pic"></a>
+        <ul class="nav navbar-nav navbar-right vue-cfp-voting" v-cloak>
+          <li class="dropdown" v-if="isLoggedIn">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><img class="icon-mini img-responsive img-rounded" v-bind:src="profilePicUrl"></a>
             <ul class="dropdown-menu">
-              <li id="user-name"><span class="text"></span></li>
-              <li id="ticket-code"><span class="text"></span></li>
+              <li><span class="text">{%raw%}{{userName}}{%endraw%}</span></li>
+              <li><span class="text">{%raw%}{{userInfo.ticketCode}}{%endraw%}</span></li>
               <li><button type="button" class="btn btn-link" id="register-ticket-code-btn">チケットコード登録</button></li>
               <li><button type="button" class="btn btn-link" id="update-ticket-code-btn">チケットコード変更</button></li>
-              <li><button type="button" class="btn btn-link" id="sign-out-btn"><i class="fa fa-sign-out" aria-hidden="true"></i> Sign-Out</button></li>
+              <li><button type="button" class="btn btn-link" v-on:click="signOut"><i class="fa fa-sign-out" aria-hidden="true"></i> Sign-Out</button></li>
             </ul>
           </li>
-          <li class="dropdown" id="sign-in" style="display: none;">
+          <li class="dropdown" v-else>
             <button class="dropdown-toggle btn navbar-btn" data-toggle="dropdown" role="button">Sign-In</button>
             <ul class="dropdown-menu">
               <li>
-                <a class="btn btn-block btn-social btn-google" id="sign-in-google">
+                <a class="btn btn-block btn-social btn-google" v-on:click="signInGoogle">
                  <span class="fa fa-google"></span> with Google
                 </a>
               </li>
               <li>
-                <a class="btn btn-block btn-social btn-twitter" id="sign-in-twitter">
+                <a class="btn btn-block btn-social btn-twitter" v-on:click="signInTwitter">
                  <span class="fa fa-twitter"></span> with Twitter
                 </a>
               </li>
               <li>
-                <a class="btn btn-block btn-social btn-github" id="sign-in-github">
+                <a class="btn btn-block btn-social btn-github" v-on:click="signInGithub">
                  <span class="fa fa-github"></span> with GitHub
                 </a>
               </li>

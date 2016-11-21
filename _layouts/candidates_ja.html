@@ -18,9 +18,9 @@ layout: default_ja
 </div>
 
 <h1 class="session_title">{{ page.title }}
-<span class="cfp-voting-required-signin">
-  <button type="button" class="btn btn-default add-favorites-btn" id="add-favorites-btn" title="ピン止め"><i class="fa fa-2x fa-thumb-tack" aria-hidden="true"></i></button>
-  <button type="button" class="btn btn-default remove-favorites-btn" id="remove-favorites-btn" title="ピン止め解除"><i class="fa fa-2x fa-thumb-tack" aria-hidden="true"></i></button>
+<span class="vue-cfp-voting" v-show="isLoggedIn" v-cloak>
+  <button type="button" class="btn btn-default add-favorites-btn" title="ピン止め" v-show="!isCurrentPageFavorited" v-on:click="addToFavorites(currentPageSessionId)"><i class="fa fa-2x fa-thumb-tack" aria-hidden="true"></i></button>
+  <button type="button" class="btn btn-default remove-favorites-btn" title="ピン止め解除" v-show="isCurrentPageFavorited" v-on:click="removeFromFavorites(currentPageSessionId)"><i class="fa fa-2x fa-thumb-tack" aria-hidden="true"></i></button>
 </span>
 </h1>
 
