@@ -1,6 +1,6 @@
 ---
 name: "Daisuke Watanabe"
-title: "What Rakuten used to build an API and operate it! (Finagle, testing, code formatter, functional programming, etc)"
+title: "What we use for our API! (Finagle, testing, code formatter, functional programming, etc)"
 length: 15
 audience: Intermediate
 language: Japanese
