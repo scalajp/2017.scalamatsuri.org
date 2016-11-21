@@ -16,6 +16,20 @@ layout: default_en
 
 <div class="cfp-tag-list"></div>
 
+<div class="cfp-voting-required-signin text-right">
+  <p>
+    <button id="filter-favorites" type="button" class="btn btn-default"><i class="fa fa-thumb-tack" style="color: #000099;" title="Pinned"></i> Show pinned</button>
+    <button id="unfilter-favorites" type="button" class="btn btn-default active"><i class="fa fa-thumb-tack" style="color: #000099;" title="Pinned"></i> Show pinned</button>
+    <button id="filter-voted" type="button" class="btn btn-default"><i class="fa fa-star" style="color: #eedd00;" title="voted"></i> Show voted</button>
+    <button id="unfilter-voted" type="button" class="btn btn-default active"><i class="fa fa-star" style="color: #eedd00;" title="voted"></i> Show voted</button>
+  </p>
+  <p>
+    Japanese Session: <span class="badge" id="lang-ja-voted-count"></span> voted / <span class="badge" id="max-voting-in-ja"></span> votable <br />
+    English Session: <span class="badge" id="lang-en-voted-count"></span> voted / <span class="badge" id="max-voting-in-en"></span> votable
+  </p>
+</div>
+
+
 <h2>40-minute sessions in English</h2>
 <div class="shuffle-session">
 {% assign has_40en = false %}

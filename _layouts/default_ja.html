@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="/css/bootstrap-social.css" rel="stylesheet">
     <link href="/css/extra.css" rel="stylesheet">
+    <link href="/css/cfp-voting.css?201611201800" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -45,6 +46,7 @@
     <![endif]-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
   </head>
   <body>
     <header class="pageHeader">
@@ -54,6 +56,38 @@
             ScalaMatsuri 2017
           </a>
         </div>
+        <ul class="nav navbar-nav navbar-right" id="cfp-voting-navi">
+          <li class="dropdown" id="sign-out" style="display: none;">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><img class="icon-mini img-responsive img-rounded" src="" id="user-pic"></a>
+            <ul class="dropdown-menu">
+              <li id="user-name"><span class="text"></span></li>
+              <li id="ticket-code"><span class="text"></span></li>
+              <li><button type="button" class="btn btn-link" id="register-ticket-code-btn">チケットコード登録</button></li>
+              <li><button type="button" class="btn btn-link" id="update-ticket-code-btn">チケットコード変更</button></li>
+              <li><button type="button" class="btn btn-link" id="sign-out-btn"><i class="fa fa-sign-out" aria-hidden="true"></i> Sign-Out</button></li>
+            </ul>
+          </li>
+          <li class="dropdown" id="sign-in" style="display: none;">
+            <button class="dropdown-toggle btn navbar-btn" data-toggle="dropdown" role="button">Sign-In</button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="btn btn-block btn-social btn-google" id="sign-in-google">
+                 <span class="fa fa-google"></span> with Google
+                </a>
+              </li>
+              <li>
+                <a class="btn btn-block btn-social btn-twitter" id="sign-in-twitter">
+                 <span class="fa fa-twitter"></span> with Twitter
+                </a>
+              </li>
+              <li>
+                <a class="btn btn-block btn-social btn-github" id="sign-in-github">
+                 <span class="fa fa-github"></span> with GitHub
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
         <ul class="clearfix">
           {% for item in site.data.nav_ja %}
             <li><a href="{{ item.href }}">{{ item.title }}</a></li>
@@ -70,5 +104,6 @@
     {% include ga.html %}
     {% include twitter.html %}
     <script src="/js/shuffle.js"></script>
+    <script src="/js/cfp-voting.js?201611201800" charset="UTF-8"></script>
 </body>
 </html>
