@@ -12,6 +12,6 @@ tags:
   - Software Design and Architecture
   - Microservices
 ---
-We have adopted the CleanArchitecture for our new project.
+We have adopted CleanArchitecture for our new project.
 
-I'll discuss the project structure, what we devised in the code base, and the development flow using the CleanArchitecture.
+In this session, I'll discuss the project structure, what we devised in the code base, and the development flow using CleanArchitecture.
