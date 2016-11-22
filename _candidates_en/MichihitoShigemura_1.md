@@ -13,5 +13,5 @@ tags:
 ---
 I've been involved in several Scala projects at multiple companies.
 
-In this session, I would like to reflect on the lessons learned, kludges, what you can and what you can't do with Scala.
+In this session, I would like to reflect on my overall lessons learned, kludges, and what you can and can't do with Scala.
 I hope you find this information helpful.
