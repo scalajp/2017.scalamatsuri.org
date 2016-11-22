@@ -10,7 +10,7 @@ organization: "TIS, Inc."
 tags:
   - Software Design and Architecture
 ---
-Microservices, which makes the granularity of the services finer, bring many benefits such as acceleration of the business speed.
-However, it also means we are now building a distributed system, and we must be prepared for complexity during operation and various failures.
+Microservices make the granularity of services finer; they have many benefits such as accelerating the speed of business.
+However, using microservices also means that we are now building a distributed system. Due to this, we must be prepared for the complexity during operation and various failures that come with a distributed system.
 
-In this session, I will show how we can tackles these challanges with Akka using circuit breaker, timeout, isolation, and Akka Split Brain Resolver.
+In this session, I will demonstrate how we can tackle these challanges with Akka using circuit breaker, timeout, isolation, and Akka Split Brain Resolver.
