@@ -1,6 +1,6 @@
 ---
 name: Grzegorz Wilaszek
-title: "型レベル宣言的Futureオーケストレーション"
+title: "型レベルの宣言的 Future オーケストレーション"
 length: 40
 audience: Intermediate
 language: English
