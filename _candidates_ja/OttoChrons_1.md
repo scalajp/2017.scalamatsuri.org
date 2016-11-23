@@ -1,6 +1,6 @@
 ---
 name: Otto Chrons
-title: "いかにして悩むのをやめてフロントエンドを愛するようになったか"
+title: "私は如何にして心配するのを止めてフロントエンドを愛するようになったか"
 length: 40
 audience: Intermediate
 language: English
@@ -9,9 +9,6 @@ github: ochrons
 tags:
   - Others
 ---
-Scala.jsは、Webアプリケーションのフロントエンド開発にScalaを持ち込んで、開発者からJavaScriptのたくさんの奇妙さを取り除いてくれた。
-Scala.jsの成長を支えているのは、Scalaが真にフルスタックなWeb開発のベストな環境になりつつあることだ。
-このトークでは、Scalaによるフロントエンド開発のプラクティスやもたらしてくれる利益をお見せできるでしょう。
-Scala.js、Android向けのScala、iOS向けのScala Nativeらを利用した真のクロスプラットフォームのフロントエンド開発の未来にも興味を持つでしょう。
+Scala.js は、ウェブのフロントエンド開発に Scala を持ち込み、JavaScript の多くの欠点から開発者を解放しました。Scala.js への支持が伸び続けると共に、Scala は真のフルスタックなウェブ開発のための最適な環境になりつつあります。
 
-Scala - 一つの言葉は全てを統べ!
+このトークでは、Scala によるフロントエンド開発のプラクティスと、それがもたらす利点について説明します。 また、Scala.js、Scala for Android、Scala Native for iOS を使用した真のクロスプラットフォームなフロントエンド開発の魅力的な未来を探ります。Scala は、一つの言語で全てを支配する！
