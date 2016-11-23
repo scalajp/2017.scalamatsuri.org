@@ -1,6 +1,6 @@
 ---
 name: Alexander Podkhalyuzin
-title: "Scala Implicits"
+title: "Scala の Implicit の中身を知る"
 length: 40
 audience: Beginner
 language: English
