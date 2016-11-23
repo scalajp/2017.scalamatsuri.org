@@ -799,6 +799,10 @@ h1.session_title {
 	padding-bottom: 0.4em;
 }
 
+.w700 {
+	width: 700px;
+}
+
 @media screen and (max-width: 1024px){
 
 	.snsBtnArea{
