@@ -1,6 +1,6 @@
 ---
 name: Luc Bourlier
-title: "Scala これくしょん: ビッグデータへの入口"
+title: "ビッグデータへの入口としての Scala コレクション"
 length: 40
 audience: Advanced
 language: English
@@ -11,8 +11,4 @@ tags:
   - Big Data / Fast Data
   - Functional Programming
 ---
-最近のビッグデータのツールは、Scalaで書かれています。
-そして、それらのツールのAPIは。Scalaのcollectionに影響されています。
-Spark、Flink、Kafka StremasといったツールのAPIとScalaのcollection APIとを比較すると、
-Scalaのコレクションを知ることで、ビッグデータのアプリケーションを始めるのに向いているように見えます。
-そして、さらにそれらの拡張されたAPIを観察することで、ビッグデータのアプリケーションが求めている全ての操作を提供することが出来ます。
+最新世代のビッグデータ用ツールは Scala で書かれています。そして、これらのツールの API は Scala のコレクションライブラリから発想を得ています。この発表では、Scala のコレクション API と Spark、Flink、Kafka Streams の API を比較することで、Scala コレクションの理解を通じてビッグデータアプリケーションのプログラミングを始める方法を見ていきます。続いて、ビッグデータアプリケーションに必要な全ての操作を提供するために API をどのように拡張したか、少し詳しく説明します。
