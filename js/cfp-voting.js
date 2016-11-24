@@ -339,8 +339,8 @@ $(function() {
       'en': 'The voting is exceeded.'
     },
     'needsTicketCode': {
-      'ja': 'チケット購入時に発行されたチケットコードを登録してください。',
-      'en': 'Please register the ticket-code when purchasing the ticket.'
+      'ja': 'チケット購入時に発行されたチェックインコードを登録してください。',
+      'en': 'Please register the Check-In Code when purchasing the ticket.'
     }
   };
 });
