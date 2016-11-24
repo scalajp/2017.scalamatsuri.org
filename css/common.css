@@ -1062,7 +1062,7 @@ h1.session_title {
 		margin-top:40px;
 	}
 
-	.sectionStyle7 .sectionHeadArea, .sectionInquiry .sectionHeadArea {
+	.sectionStyle7 .sectionHeadArea, .sectionInquiry .sectionHeadArea, .sectionTicket .sectionHeadArea{
 		width:96%;
 		margin:0 auto 0 auto;
 	}
