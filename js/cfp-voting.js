@@ -34,13 +34,13 @@ $(function() {
   var auth     = firebase.auth();
   var database = firebase.database();
 
-  var DEFAULT_SETTINGS = {canVote: false, maxVoting: {'ja': 0, 'en': 0}};
+  var DEFAULT_SETTINGS = {canVote: false, maxVoting: {'ja': 0, 'en': 0, 'all': 0}};
 
   var settings     = DEFAULT_SETTINGS;
   var userInfo     = {};
   var favorites    = [];
   var allVoted     = {};
-  var votedCount   = {'ja': 0, 'en': 0};
+  var votedCount   = 0;
   var pageLang = location.href.replace(/https?:\/\/.*\/(ja|en)\/.*/, "$1");
 
   var signIn = function(providerMethod) {
@@ -79,8 +79,7 @@ $(function() {
   var initSettings = function() {
     database.ref('settings').on('value', function(snapshot) {
       settings = snapshot.val() || DEFAULT_SETTINGS;
-      $('#max-voting-in-ja').text('' + settings.maxVoting['ja']);
-      $('#max-voting-in-en').text('' + settings.maxVoting['en']);
+      $('#max-voting').text('' + settings.maxVoting['all']);
     });
   }
 
@@ -131,13 +130,9 @@ $(function() {
   var initVoted = function(user) {
     database.ref('users/' + user.uid + '/allvoted').on('value', function(snapshot) {
       allVoted = snapshot.val() || {};
-      votedCount = {'ja': 0, 'en': 0};
-      $.each(allVoted, function(id, info) {
-        if (info.language == "Japanese") votedCount['ja']++;
-        if (info.language == "English")  votedCount['en']++;
-      });
-      $('#lang-ja-voted-count').text('' + votedCount['ja']);
-      $('#lang-en-voted-count').text('' + votedCount['en']);
+      votedCount = 0;
+      $.each(allVoted, function(id, info) { votedCount++; });
+      $('#voted-count').text('' + votedCount);
       if (!!allVoted[extractSessionId()]) {
         $('#vote-btn').hide();
         $('#unvote-btn').show();
@@ -203,8 +198,7 @@ $(function() {
       var code = registerTicketCode();
       if (!code) return;
     }
-    var lang = language === 'English' ? 'en' : 'ja';
-    if (votedCount[lang] >= settings.maxVoting[lang]) {
+    if (votedCount >= settings.maxVoting['all']) {
       alert(messages['overMaxVoting'][pageLang]);
       return;
     }
@@ -345,8 +339,8 @@ $(function() {
       'en': 'The voting is exceeded.'
     },
     'needsTicketCode': {
-      'ja': 'チケット購入時に発行されたチケットコードを登録してください。',
-      'en': 'Please register the ticket-code when purchasing the ticket.'
+      'ja': 'チケット購入時に発行されたチェックインコードを登録してください。',
+      'en': 'Please register the Check-In Code when purchasing the ticket.'
     }
   };
 });
