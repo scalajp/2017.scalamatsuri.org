@@ -1,7 +1,7 @@
 ---
 name: Michael Cohen
 title: "地球における現実の Scala エンジニア"
-length: 40
+length: 15
 audience: Beginner
 language: English
 twitter: GothamTechTalk
