@@ -1,7 +1,7 @@
 ---
 name: Michael Cohen
 title: "The Real Scala Engineers of Planet Earth"
-length: 40
+length: 15
 audience: Beginner
 language: English
 twitter: GothamTechTalk
