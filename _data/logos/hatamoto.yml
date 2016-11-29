@@ -10,9 +10,9 @@
 - href: "http://www.tis.jp/service_solution/goreactive/"
   title: tis
   img: "/img/logo/tis.jpg"
-# - href: "javascript:void(0)"
-#   title: 旗本5
-#   img: "/ja/img/hatamoto_placeholder.png"
+- href: "http://qtamaki.github.io/ctw200x70.png"
+  title: ctw
+  img: "/img/logo/ctw.png"
 # - href: "javascript:void(0)"
 #   title: 旗本6
 #   img: "/ja/img/hatamoto_placeholder.png"
