@@ -1,6 +1,6 @@
 ---
 name: Mateusz Dymczyk
-title: "頑張らない機械学習"
+title: "煩わしくない機械学習"
 length: 40
 audience: Intermediate
 language: English
