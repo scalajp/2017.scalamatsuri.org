@@ -1,5 +1,5 @@
 ---
-title: "MAVERICK"
+title: "マーベリック株式会社"
 logo: "/img/logo/maverick.png"
 plan: shogun
 link: "https://www.mvrck.co.jp/recruit/job-infos/"
