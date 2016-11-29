@@ -1,6 +1,6 @@
 ---
 name: Mateusz Dymczyk
-title: "Hustle free Machine Learning"
+title: "Hassle free Machine Learning"
 length: 40
 audience: Intermediate
 language: English
