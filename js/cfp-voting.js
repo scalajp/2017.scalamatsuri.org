@@ -250,7 +250,8 @@ $(function() {
         'email': user.email,
         'providerId': user.providerId,
         'ticketCode': ticketCode,
-        'hasTicketCode': true
+        'hasTicketCode': true,
+        'timestamp': (new Date()).toISOString()
       }
       database.ref('users/' + user.uid + '/info').set(info);
     } else if (ticketCode === '' && !!userInfo.ticketCode) {
