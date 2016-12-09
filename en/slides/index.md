@@ -29,10 +29,10 @@ The ScalaMatsuri staff will provide the translation, unless you speak both langu
 
 ## Submit your slides
 
-Please submit your slide decks by Dec 22 (Tue).
+Please submit your slide decks by January 10th.
 
 ScalaMatsuri staff will provide the translation, and also check for Code of Conduct compliance.
 Since the translation will be done based on text, if you could submit a text file with all the texts along with your slide deck, it will be appreciated (like a lot)!
-We are planning to return the slide deck around January 16. The slide deck will also be submitted to the interpreters.
+The slide deck will also be submitted to the interpreters.
 
-If you have any changes by then, feel free to submit the new deck along with the change description such as "changed the text on page 3." Any changes after January 16 will be at your own risk.
+If you have any changes by then, feel free to submit the new deck along with the change description such as "changed the text on page 3." Any changes after February 10th will be at your own risk.
