@@ -6,8 +6,8 @@
   title: 開催概要
 # - href: "/#gues"
 #   title: 招待講演者
-#- href: "/#schedule"
-#  title: プログラム
+- href: "/#schedule"
+  title: プログラム
 #- href: "/ja/event/"
 #  title: イベント
 #- href: "/#tickets"

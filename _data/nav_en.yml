@@ -6,8 +6,8 @@
   title: Event Info
 # - href: "/#gues"
 #   title: 招待講演者
-#- href: "/index_en.html#schedule"
-#  title: Schedule
+- href: "/index_en.html#schedule"
+  title: Schedule
 #- href: "/index_en.html#tickets"
 #  title: Tickets
 #- href: "/index_en.html#sp"
