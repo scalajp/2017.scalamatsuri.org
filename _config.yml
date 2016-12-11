@@ -5,6 +5,8 @@ exclude:
   - ".gitignore"
   - ".editorconfig"
   - "vendor"
+  - "docker-compose.yml"
+  - "Dockerfile"
 
 defaults:
   - values:
