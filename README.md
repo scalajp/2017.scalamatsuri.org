@@ -13,7 +13,9 @@ gh-pagesブランチに変更内容をpushします。
 
 ウェブサイトを複数ページに対応させるにあたり、Jekyll を使って作業をするようにします。
 
-### セットアップ
+## セットアップ
+
+### Rubyを使う場合
 
 Ruby がインストールされた環境が必要です。
 
@@ -30,6 +32,28 @@ bundle install --path vendor/bundle
 ```
 bundle exec jekyll serve -w
 ```
+
+### Dockerを使う場合
+
+予め`docker`と`docker-compose`をインストールしておいてください
+
+#### 準備
+
+dockerのイメージをビルドする必要があるので、以下のコマンドを実行してください
+
+```shell
+docker-compose build
+```
+
+#### 起動
+
+起動する場合は以下のコマンドを実行してください
+
+```shell
+docker-compose up
+```
+
+終了する場合は、Ctrl-Cで終了させてください。
 
 ### 基本的な設定
 
