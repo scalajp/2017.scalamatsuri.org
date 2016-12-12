@@ -1,5 +1,5 @@
 ---
-name: "Yukio Kadomoto and Masateru Nishimura"
+name: "Yukio Kakumoto and Masateru Nishimura"
 title: "Implementing DMM API Gateway in Akka Streams and HTTP"
 length: 40
 audience: Intermediate
