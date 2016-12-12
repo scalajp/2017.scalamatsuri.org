@@ -6,7 +6,7 @@ audience: Intermediate
 language: English
 twitter: vkostyukov
 github: vkostyukov
-organization: Twitter, Inc
+organization: "Twitter, Inc"
 tags:
   - Functional Programming
   - Microservices
