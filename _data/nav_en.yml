@@ -16,8 +16,8 @@
 #  title: Staff
 - href: "/en/code-of-conduct/"
   title: Code of Conduct
-- href: "/en/candidates/"
-  title: Proposal List
+#- href: "/en/candidates/"
+# title: Proposal List
 - href: "/en/sponsors/"
   title: Sponsorship
 - href: "/en/travel/"
