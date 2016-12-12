@@ -4,6 +4,7 @@ title: "広告配信システムで積み重ねてきたパフォーマンスTip
 length: 15
 audience: Beginner
 language: Japanese
+twitter: petitviolet
 github: petitviolet
 tags:
   - Best Practices

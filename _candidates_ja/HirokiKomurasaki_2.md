@@ -4,6 +4,7 @@ title: "Akka-Actorで設計・開発して失敗し、学んだ話"
 length: 15
 audience: Beginner
 language: Japanese
+twitter: petitviolet
 github: petitviolet
 tags:
   - Tools

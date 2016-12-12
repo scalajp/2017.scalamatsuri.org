@@ -4,6 +4,7 @@ title: "What we learned from designing, developing, and failing with Akka Actor"
 length: 15
 audience: Beginner
 language: Japanese
+twitter: petitviolet
 github: petitviolet
 tags:
   - Tools
