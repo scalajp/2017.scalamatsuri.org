@@ -1,5 +1,5 @@
 ---
-name: "Hirotaka Koshiba"
+name: "Hiroki Komurasaki"
 title: "What we learned from designing, developing, and failing with Akka Actor"
 length: 15
 audience: Beginner
