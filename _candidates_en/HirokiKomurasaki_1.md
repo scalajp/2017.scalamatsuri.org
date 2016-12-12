@@ -4,6 +4,7 @@ title: "Performance tips accumulated from developing an ad distribution system"
 length: 15
 audience: Beginner
 language: Japanese
+twitter: petitviolet
 github: petitviolet
 tags:
   - Best Practices
