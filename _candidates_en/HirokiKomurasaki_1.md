@@ -1,5 +1,5 @@
 ---
-name: "Hirotaka Koshiba"
+name: "Hiroki Komurasaki"
 title: "Performance tips accumulated from developing an ad distribution system"
 length: 15
 audience: Beginner
