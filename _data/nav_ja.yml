@@ -10,8 +10,8 @@
   title: プログラム
 #- href: "/ja/event/"
 #  title: イベント
-#- href: "/#tickets"
-#  title: チケット
+- href: "/#tickets"
+  title: チケット
 - href: "/#sp"
   title: スポンサー
 #- href: "/ja/staff"
