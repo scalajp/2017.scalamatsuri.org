@@ -17,7 +17,7 @@ Skinny Framework でつくって社内で運用したりしています。
 このナレッジ共有ツールは Sharedocs ( <https://github.com/atware/sharedocs> )という OSS
 として公開していますので、ご興味のある方は使ってみてください。
 
-また、Scala先駆者インタビュー( <http://tech.atware.co.jp/tag/interview/>
+また、Scala先駆者インタビュー( <http://tech.atware.co.jp/scalainterview/>
 )という連載ブログ記事の企画元でもあります。
 
 
