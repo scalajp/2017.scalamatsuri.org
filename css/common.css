@@ -550,6 +550,15 @@ input, select {
 	margin-bottom:40px;
 }
 
+.sectionStyle7Inner .bugyoLogo{
+	text-align: center;
+	font-weight: bold;
+}
+
+.sectionStyle7Inner .bugyoLogo p{
+	margin: 1%;
+}
+
 .spLv2{
 	background:#d84c4c!important;
 }

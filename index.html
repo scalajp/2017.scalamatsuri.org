@@ -877,6 +877,19 @@ layout: null
 						{% endfor %}
 					</ul>
 				</article>
+				<article class="spBox">
+					<h3 class="ttlspBox1 spLv6">奉行スポンサー</h3>
+					<ul class="clearfix shuffle">
+						{% for logo in site.data.logos.bugyo %}
+						<li>
+							<div class="bugyoLogo">
+								<p>{{ logo.category_ja }}</p>
+								<a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a>
+							</div>
+						</li>
+						{% endfor %}
+					</ul>
+				</article>
 			</div>
 		</section>
 

@@ -840,6 +840,19 @@ We are looking for topics that you think Scala community would be interested. We
 						{% endfor %}
 					</ul>
 				</article>
+				<article class="spBox">
+					<h3 class="ttlspBox1 spLv6">Bugyo sponsor</h3>
+					<ul class="clearfix shuffle">
+						{% for logo in site.data.logos.bugyo %}
+						<li>
+							<div class="bugyoLogo">
+								<p>{{ logo.category_en }}</p>
+								<a href="{{ logo.href }}"><img src="{{ logo.img }}" alt="{{ logo.title }}" /></a>
+							</div>
+						</li>
+						{% endfor %}
+					</ul>
+				</article>
 			</div>
 		</section>
 
