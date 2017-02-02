@@ -10,8 +10,8 @@ link: "http://www.a-saas.com/corporate/recruit.html"
 
 元々Javaで開発をしていましたが、こんな理由からScalaに移行しています。
 
-`<Scala選定の理由と移行の方針>`
-http://qiita.com/yuukiishikawa/items/95ad5a21514bffddb0bd
+【Scala選定の理由と移行の方針】 
+<http://qiita.com/yuukiishikawa/items/95ad5a21514bffddb0bd>
 
 そんな私たちと一緒にぜひ一緒に最高のサービス作りをしましょう！
 
