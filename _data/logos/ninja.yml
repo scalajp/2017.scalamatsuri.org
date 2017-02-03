@@ -10,12 +10,12 @@
 - href: "http://good-flow.com/"
   title: goodflow
   img: "/img/logo/goodflow.png"
-# - href: "javascript:void(0)"
-#   title: 忍者5
-#   img: "/ja/img/ninja_placeholder.png"
-# - href: "javascript:void(0)"
-#   title: 忍者6
-#   img: "/ja/img/ninja_placeholder.png"
+- href: "https://twitter.com/kuchitama"
+  title: kuchitama
+  img: "/img/logo/kuchitama.png"
+- href: "https://twitter.com/daiksy"
+  title: daiksy
+  img: "/img/logo/daiksy.png"
 # - href: "javascript:void(0)"
 #   title: 忍者7
 #   img: "/ja/img/ninja_placeholder.png"
