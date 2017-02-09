@@ -8,3 +8,8 @@
   img: "/img/logo/doorkeeper.png"
   category_ja: チケット奉行
   category_en: Ticket Bugyo
+- href: "https://freshlive.tv/"
+  title: fresh
+  img: "/img/logo/fresh.png"
+  category_ja: 配信奉行
+  category_en: Broadcast Bugyo
