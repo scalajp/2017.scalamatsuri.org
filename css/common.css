@@ -812,6 +812,11 @@ h1.session_title {
 	width: 700px;
 }
 
+.broadcastArea {
+	text-align: center;
+	padding-top: 20px;
+}
+
 @media screen and (max-width: 1024px){
 
 	.snsBtnArea{
