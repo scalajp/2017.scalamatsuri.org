@@ -24,7 +24,7 @@
 #  title: スポンサー募集
 - href: "/jobs/"
   title: 求人情報
-- href: "/volunteer/"
-  title: ボランティア募集
+#- href: "/volunteer/"
+#  title: ボランティア募集
 - href: "/ja/travel/"
   title: トラベル情報
