@@ -245,6 +245,10 @@ input, select {
 	padding-bottom:60px;
 }
 
+.sectionStyle1Inner .txtBlock {
+	padding-top: 20px;
+}
+
 .sectionStyle1Inner .txtBlock p{
 	width:865px;
 	margin:0 auto 0 auto;
@@ -479,7 +483,7 @@ input, select {
 }
 
 .sectionStyle1Inner .sectionHeadArea{
-	width:400px;
+	width: 420px;
 }
 
 .sectionStyle3 .sectionHeadArea{
