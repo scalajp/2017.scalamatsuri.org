@@ -12,8 +12,8 @@
   title: Tickets
 #- href: "/index_en.html#sp"
 #  title: Sponsors
-#- href: "/en/staff"
-#  title: Staff
+- href: "/en/staff"
+  title: Staff
 - href: "/en/code-of-conduct/"
   title: Code of Conduct
 #- href: "/en/candidates/"
