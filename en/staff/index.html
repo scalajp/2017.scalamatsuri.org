@@ -4,15 +4,9 @@ title: ScalaMatsuri staff
 ---
 
 
-<h2 class="text-center">Organization member</h2>
+<h2 class="text-center">staff</h2>
 <div class="row">
 {% for entry in site.data.staff.member %}
-  {% include staff_entry_en.html entry=entry %}
-{% endfor %}
-</div>
-<h2 class="text-center">Volunteer staff</h2>
-<div class="row">
-{% for entry in site.data.staff.volunteer %}
   {% include staff_entry_en.html entry=entry %}
 {% endfor %}
 </div>

@@ -3,15 +3,9 @@ title: ScalaMatsuri スタッフ
 ---
 
 
-<h2 class="text-center">運営メンバー</h2>
+<h2 class="text-center">スタッフ</h2>
 <div class="row">
 {% for entry in site.data.staff.member %}
-  {% include staff_entry_ja.html entry=entry %}
-{% endfor %}
-</div>
-<h2 class="text-center">当日ボランティアスタッフ</h2>
-<div class="row">
-{% for entry in site.data.staff.volunteer %}
   {% include staff_entry_ja.html entry=entry %}
 {% endfor %}
 </div>

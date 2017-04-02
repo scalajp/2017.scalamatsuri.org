@@ -23,13 +23,145 @@ member:
     note: "組織運営・広報リーダー"
     noteEn: "Management lead"
 
+  - nameJa: grimrose
+    nameEn: grimrose
+    handle: grimrose
+    twitter: grimrose
+    github: grimrose
+    gravatar: afef2fcf56cef5e90af94a1640d95fbc
+    note: "メディアチーム(Web周り)、ホテルの予約、配信"
 
-# 当日ボランティアスタッフ
-volunteer:
-  - nameJa: 麻植 泰輔
-    nameEn: Taisuke Oe
-    twitter: OE_uia
-    github: taisukeoe
-    gravatar: 25fb3e7054e52e524817044853c2d4c3
-    note: "組織運営・広報リーダー"
-    noteEn: "Management lead"
+  - nameJa: 西村隆宏
+    nameEn: Takahiro Nishimura
+    handle: nishimuuuuuu
+    twitter: nishimuuuuuu
+    github: nishimuuu
+    note: "食事、受付"
+
+  - nameJa: 大西洋平
+    nameEn: Yohei Onishi
+    twitter: legoboku
+    github: yohei1126
+    gravatar: 1b9ba3d8f6c42ad36480468f2e06a247
+    note: "翻訳、その他雑用"
+
+  - nameJa: 粕谷 大輔
+    nameEn: Kasuya Daisuke
+    handle: daiksy
+    twitter: daiksy
+    github: daiksy
+    gravatar: 4dd89003cc8fe9f21d67b0c99b773436
+    note: "A会場の司会をやっていました。"
+
+  - nameJa: 青山 直紀
+    nameEn: Naoki Aoyama
+    handle: aoiroaoino
+    twitter: AoiroAoino
+    github: aoiroaoino
+    gravatar: 0b8291daeda1cd55e445af644d402bb0
+    note: "ノベルティの発注とかしてました"
+
+  - nameJa: 村井 元瞭
+    nameEn: Motoaki Murai
+    handle: Motoakim
+    twitter: _motoakim
+    github: motoakim
+    gravatar: e0715579d4f64c11b4af58238c382244
+    note: "リシーバーの受け渡しを行いました。ありがとうございました。"
+
+  - nameJa: 坂上瑠一
+    nameEn: Ryuichi Sakagami
+    handle: Shagamii
+    twitter: RyuichiSakagami
+    github: Shagamii
+    gravatar: ac23f7b20219c3c2e19ce3ac13714aa1
+    note: "受付"
+
+  - nameJa: 横井雄太
+    nameEn: yutayokoi
+    handle: yutayokoi
+    twitter: yutayokoi0117
+    github: yutayokoi
+    gravatar: 6e896f5163da7967a8d135d8bd517f7e
+    note: "寿司バー、ノベルティ、アンケート、珈琲"
+
+  - nameJa: 高品 佑也
+    nameEn: Yuya TAKASHINA
+    handle: ytakashina
+    twitter: takashinayuya
+    github: y-takashina
+    gravatar: 12a86bcdc83921b4ae089d205ade7109
+    note: "トランシーバー受付"
+
+  - nameJa: ik-fib
+    nameEn: ik-fib
+    handle: ik-fib
+    twitter: ik11235
+    github: ik11235
+    gravatar: 0bf6cf78d2177b6eeccc798b3be1fcb1
+    note: "翻訳レシーバー"
+
+  - nameJa: 久保 仁詩
+    nameEn: Niishi Kubo
+    handle: n11sh1
+    twitter: niishi214
+    github: n11sh1
+    gravatar: 525c91be370a79cab50579086a70b3d7
+    note: "受付、タイムキーパー"
+
+  - nameJa: 木村 宗太郎
+    nameEn: Kimura Sotaro
+    handle: kimutansk
+    twitter: kimutansk
+    github: kimutansk
+    gravatar: 5d869b93035410ece41ff0d86d8c5c14
+    note: "プログラム"
+
+  - nameJa: 遠藤一臣
+    nameEn: Kazuomi Endo
+    handle: omiend
+    twitter: omiend
+    github: omiend
+    gravatar: 93f52b85c90d3fc6afdfa7c61ce2a89e
+    note: "受付担当させていただきました!!"
+
+  - nameJa: takahashi
+    nameEn: takahashi
+    handle: takahashi
+    gravatar: f10bf73ac662a43ad9cb644151fdcbf8
+    note: "事務サポート"
+
+  - nameJa: 田中　翔
+    nameEn: Sho TANAKA
+    handle: tsho
+    twitter: tshowis
+    github: tsho
+    note: "統括"
+
+  - nameJa: 堀内紀彰
+    nameEn: Noriaki Horiuchi
+    handle: NoriakiHoriuchi
+    twitter: NoriakiHoriuchi
+    github: NoriakiHoriuchi
+    gravatar: d433f997353167f84c13db6829b2220e
+    note: "統括チーム"
+
+  - nameJa: 入澤 賢
+    nameEn: Masaru Irisawa
+    gravatar: 30bfb0621f8a63e5c43b128dd6773253
+    note: "タイムキーパー"
+
+  - nameJa: 竹下義晃
+    nameEn: Yoshiteru Takeshita
+    handle: takezoux2
+    twitter: takezoux2
+    github: takezoux2
+    gravatar: 5e1313c5d1166060f2e2ca677b4e40da
+    note: "会場リーダー"
+
+  - nameJa: 石橋 隆平
+    nameEn: Ishibashi Ryuhei
+    handle: rysh
+    twitter: cactaceae
+    gravatar: 184bb1d4907877239bd4f9ddeb5f1283
+    note: "チケット、クローク、受付"
